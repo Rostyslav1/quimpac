@@ -478,8 +478,8 @@ $(document).ready(function () {
         maxSlides: 5,
         moveSlides: 1,
         controls: true,
-        nextText: "<img src='../img/next.svg' >",
-        prevText: "<img src='../img/back.svg' >",
+        nextText: "<img src='img/next.svg' >",
+        prevText: "<img src='img/back.svg' >",
         slideWidth: 140,
         infiniteLoop: false,
         pager: false,
@@ -553,17 +553,17 @@ $(document).ready(function () {
 
     var body = document.querySelector('body');
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 0){
+        if (window.pageYOffset > 0 && !body.classList.contains('contact_page')){
             document.querySelector('.header').classList.add('onscroll');
             document.querySelector('.header').classList.add('white_header');
         } else {
             document.querySelector('.header').classList.remove('onscroll');
         }
         if (body.classList.contains('nuesta_empresa')) {
-            if (document.querySelector('.years-slider-section').classList.contains('active-section')){
-                document.querySelector('.pagination').style.display ='none';
+            if (document.querySelector('.years-slider-section').classList.contains('pagi')){
+                document.querySelector('.pagination').classList.add('left');
             } else {
-                document.querySelector('.pagination').style.display = 'block';
+                document.querySelector('.pagination').classList.remove('left')
             }
             
         }
@@ -595,5 +595,42 @@ $(document).ready(function () {
     });
 
     resize_el();
+
+
+    // Couter
+
+    var a = 0;
+    $(window).scroll(function() {
+
+        var oTop = $('#counter').offset().top - window.innerHeight;
+        if (a == 0 && $(window).scrollTop() > oTop) {
+            $('.counter-value').each(function() {
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+                $({
+                    countNum: $this.text()
+                }).animate({
+                        countNum: countTo
+                    },
+
+                    {
+
+                        duration: 2000,
+                        easing: 'swing',
+                        step: function() {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function() {
+                            $this.text(this.countNum);
+                            //alert('finished');
+                        }
+
+                    });
+            });
+            a = 1;
+        }
+
+    });
+
 
 });

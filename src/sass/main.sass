@@ -221,7 +221,7 @@ a
 		justify-content: flex-end
 		menu
 			display: flex
-			justify-content: cpace-between
+			justify-content: space-between
 			padding: 0
 			margin: 0
 		li
@@ -378,7 +378,7 @@ a
 			height: 2px
 			background-color: #ffffff
 			position: absolute
-			box-shadow: 0 0 2px 0 rgba(0,0,0,.5)
+			// box-shadow: 0 0 2px 0 rgba(0,0,0,.5)
 			right: 0
 			top: 14px
 			opacity: 0.8
@@ -386,7 +386,7 @@ a
 			opacity: 0
 			color: #ffffff
 			font-size: 0.7rem
-			text-shadow: 1px 1px rgba(0,0,0,.5)
+			// text-shadow: 1px 1px rgba(0,0,0,.5)
 			transition: all .2s ease-out
 			display: inline-block
 		&:hover
@@ -2538,7 +2538,7 @@ a
 			max-width: 400px
 			padding: 0 10px
 	.home
-		background:url('../img/bg-dots.png'), url('../img/images-hd/talento/img-TALENTO.jpg')
+		background: url('../img/bg-dots.png'), url('../img/images-hd/talento/img-TALENTO.jpg')
 		&:before, &:after
 			display: none
 		&:after
@@ -3594,5 +3594,21 @@ a
 			background-color: #A0A0A0
 		.hover-text
 			color: #a0a0a0
+.contact_page
+	.header
+		position: absolute
+.quimicos-contetn .left-text-vertial
+	font-family: "GestaW01Med", sans-serif
+
+.pagination.left
+	right: auto
+	left: 0
+	.active
+		padding-right: 0
+		padding-left: 40px
+	a
+		&::after
+			right: auto
+			left: 0
 
 @import "media"
