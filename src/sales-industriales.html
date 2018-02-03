@@ -1,0 +1,914 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Webpack</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <!-- Favicons -->
+    <!-- <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
+
+
+
+
+</head>
+
+<body class="quimicos sales_industriales">
+
+<div class="preloader">
+    <div class="top_progres_bar">
+        <div class="loadbar"></div>
+    </div>
+    <img src="img/preloader.svg">
+</div>
+
+    <section class="section operaciones home section-dark" id="01">
+        <header class="header">
+            <nav class="top-menu top_mobile_menu hid-lg-up">
+                <menu>
+                    <li>
+                        <a href="#">Hechos de importancia</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                    </li>
+                    <li>
+                        <a href="#">Factura electrónica</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                    </li>
+                    <li>
+                        <a href="#">Registro de proveedores</a>
+                    </li>
+                    <!-- <li class="lang-buttons">
+                        <a href="" class="active">esp</a>
+                        <a href="">eng</a>
+                    </li> -->
+                </menu>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-sm-4">
+                        <div class="logo">
+                            <a href="http://seekdev.com/quimpac">
+                                <img class="img-responsive" src="img/Logo/logo.png" alt="">
+                                <img class="img-responsive" src="img/png/logo-prodacts-page.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 hid-lg-down top_menu_wrapper">
+                        <nav class="top-menu hid-lg-down">
+                            <menu>
+                                <li>
+                                    <a href="#">Hechos de importancia</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                                </li>
+                                <li>
+                                    <a href="#">Factura electrónica</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                                </li>
+                                <li>
+                                    <a href="#">Registro de proveedores</a>
+                                </li>
+                                <!-- <li class="lang-buttons">
+                                    <a href="" class="active">esp</a>
+                                    <a href="">eng</a>
+                                </li> -->
+                            </menu>
+                        </nav>
+                        <nav class="main-menu">
+                            <menu>
+                                <li class="hid-lg-up">
+                                    <a href="http://seekdev.com/quimpac">inicio</a>
+                                </li>
+                                <li>
+                                    <a>quienes somos</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/nuestra-empresa.html">Nuestra Empresa</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/que-hacemos.html">Que Hacemos</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu">
+                                    <a>operaciones</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/quimicos.html">Químicos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/fosfatos.html">Fosfatos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/sales-industriales.html"> Sales Industriales</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/sales-industriales.html"> Sal Marina Emsal</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="http://seekdev.com/quimpac/talento.html">talento</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/quimicos.html">Nuestra Gente</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="http://seekdev.com/quimpac/contactanos.html">contáctenos</a>
+                                </li>
+                                <!-- <li class="search">
+                                    <i class="icon-search"></i>
+                                    <form class="header-input-filds" action="">
+                                        <input type="search">
+                                        <input type="submit" value='Buscar'>
+                                    </form>
+                                </li> -->
+                            </menu>
+                        </nav>
+                    </div>
+                    <div class="col-3 col-sm-8 hid-lg-up align-self-center">
+                        <div class="hamburger">
+                            <div id="nav-icon3">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header-Main Cobtent -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="home-content">
+                        <div class="quimicos-contetn">
+                            <h1 class="h1">SALES INDUSTRIALES
+                                <span class="right-line"></span>
+                            </h1>
+                            <span class="left-text-vertial">OPERACIONES</span>
+                            <span class="bg-number">
+                                <span>0</span>
+                                <span>2</span>
+                            </span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container hid-lg-up">
+            <div class="row">
+                <div class="col">
+                    <div class="scroll-to-bottom">
+                        <a href="#02">
+                            <span class="line"></span>
+                            <span class="text">Instalaciones</span>
+                            <a href="#contact_popup" class="btn popup-modal red-btn-main call-btn hidden-sm-up">
+                                <span class="visable-text">ATENCIÓN AL CLIENTE</span>
+                                <span class="hidden-text">ATENCIÓN AL CLIENTE</span>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="pagination">
+            <li>
+                <a class="active" href="#01">
+                    <span class="hover-text">SALES INDUSTRIALES</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#02">
+                    <span class="hover-text">INSTALACIONES</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#03">
+                    <span class="hover-text">PROCESO PRODUCTIVO</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#04">
+                    <span class="hover-text">PRODUCTOS</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="section instalaciones-section lite-section" id="02">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="title">
+                        <h3 class="h1 h1-lowest-size h1-with-line">
+                            <span>INSTALACIONES</span>
+                        </h3>
+                        <a href="#contact_popup" class="btn popup-modal red-btn-main call-btn hid-lg-up">
+                            <span class="visable-text">ATENCIÓN AL CLIENTE</span>
+                            <span class="hidden-text">ATENCIÓN AL CLIENTE</span>
+                        </a>
+                    </div>
+                    <div class="instalaciones-item">
+                        <div class="instalaciones-item-wrapper" style="background-image: url('img/sales-1.jpg')">
+                            <div class="left-item-content">
+                                <h3 class="h1 h1-vertical">SALINAS HUACHO</h3>
+                            </div>
+                            <div class="right-item-content">
+                                <h4 class="h3">Lorem, ipsum.</h4>
+                                <p>Lorem Ipsum is simply dummy text
+                                    <br> Lorem Ipsum is simply</p>
+                            </div>
+                            <div class="item-btn-wrpper">
+                                <a href="#certificate-1" class="popup-modal btn red-btn-main">
+                                    <span class="visable-text">VER GALERÍA</span>
+                                    <span class="hidden-text">VER GALERÍA</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="instalaciones-item right-instalaciones-item">
+                        <a href="#contact_popup" class="btn popup-modal red-btn-main call-btn hid-lg-down">
+                            <span class="visable-text">ATENCIÓN AL CLIENTE
+                                <!-- <img src="img/png/call-btn.png" alt=""> -->
+                            </span>
+                            <span class="hidden-text">ATENCIÓN AL CLIENTE
+                                <!-- <img src="img/png/call-btn.png" alt=""> -->
+                            </span>
+                        </a>
+                        <div class="instalaciones-item-wrapper" style="background-image: url('img/sales-2.jpg')">
+                            <div class="left-item-content">
+                                <h3 class="h1 h1-vertical">SALINAS OTUMA</h3>
+                            </div>
+                            <div class="right-item-content">
+                                <h4 class="h3">Lorem, ipsum.</h4>
+                                <p>Lorem Ipsum is simply dummy text
+                                    <br> Lorem Ipsum is simply</p>
+                            </div>
+                            <div class="item-btn-wrpper">
+                                <a href="#certificate-2" class="popup-modal btn red-btn-main">
+                                    <span class="visable-text">VER GALERÍA</span>
+                                    <span class="hidden-text">VER GALERÍA</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark-operaciones-section" id="03">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="operaciones-content">
+                        <h3 class="h1 h1-low-size">Proceso
+                            <span class="h-bottom-text">Productivo
+                                <span class="right-line"></span>
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="operaciones-content-p">
+                        <p>Quimpac S.A. es productor integrado de sal y productos químicos en el Perú. Nuestras unidades de
+                            negocios: Sales: Consumo Humano e Industrial Químicos: Soda cáustica, Cloro Líquido, Acido Clorhídrico,
+                            Hipoclorito de Sodio, Hipoclorito de Calcio, Cloruro de Calcio, Cloruro Férrico y Sulfato Férrico.
+                            Fosfatos: Fosfatos de Calcio (18.5% y 21.5% de Fósforo) para consumo animal.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                    <div class="operaciones-img">
+                        <img class="operaciones-img hid-7-up" src="img/svg/Estruc-Operaciones/map-sales.svg" alt="">
+                        <div class="img hid-7-dowm">
+                            <img class="operaciones-img " src="img/map-responsive.svg" alt="">
+                        </div>
+                        <div class="item-btn-wrpper ver_proceso">
+                            <a href="#proceso" class="popup-modal btn red-btn-main">
+                                <span class="visable-text">
+                                    <span>VER PROCESO</span>
+                                    <img src="img/zoom-icon.svg" alt="">
+                                </span>
+                                <span class="hidden-text">
+                                    <span>VER PROCESO</span>
+                                    <img src="img/zoom-icon.svg" alt="">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-productos lite-section" id="04">
+        <div class="container">
+            <div class="row">
+                <h3 class="h1 h1-low-size ">PRODUCTOS
+                    <span class="h-bottom-text right-bl">SALES</span>
+                </h3>
+                <!--<a href="#contact_popup" class="btn popup-modal red-btn-main call-btn">-->
+                <!--<span class="visable-text">ATENCIÓN AL CLIENTE-->
+                <!--&lt;!&ndash; <img src="img/png/call-btn.png" alt=""> &ndash;&gt;-->
+                <!--</span>-->
+                <!--<span class="hidden-text">ATENCIÓN AL CLIENTE-->
+                <!--&lt;!&ndash; <img src="img/png/call-btn.png" alt=""> &ndash;&gt;-->
+                <!--</span>-->
+                <!--</a>-->
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <div class="products-wrapper accordion-slider-wrapper">
+                        <div class="accordion-wrapper accordion-slider" id="accordion-slider">
+
+                            <div class="accordion-item-wrapper">
+                                <div class="accordion-item active">
+                                    <div class="title">
+                                        División Sales de Consumo Humano
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-list-item">
+                                            <div>Marina EMSAL MESA</div>
+                                            <ul>
+                                                <li>½ Kg x 50 unidades</li>
+                                                <li>Big Bag x 750 kg</li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Marina EMSAL COCINA</div>
+                                            <ul>
+                                                <li>½ Kg x 50 unidades</li>
+                                                <li>Big Bag x 750 kg</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item-wrapper">
+                                <div class="accordion-item">
+                                    <div class="title">
+                                        División Sales de usos Industriales
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-list-item">
+                                            <div>Refinadas y envasadas</div>
+                                            <ul>
+                                                <li>Sacos x 25 Kg</li>
+                                                <li>Sacos x 50 Kg</li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Sal a granel plantas químicas</div>
+                                            <ul>
+                                                <li>Sacos x 50 Kg</li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Sal a Granel deshielo</div>
+                                            <ul>
+                                                <li>Granel</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-12">
+
+
+
+                    <div class="quimicos_slider_wrapper">
+                        <div class="quimicos_slider">
+                            <div class="prodacts-item-row" id="bx_product_mobile">
+
+
+
+                                <div class="prodact-item first">
+                                    <a href="http://seekdev.com/quimpac/product.html" class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product1.svg" alt="">
+                                        <h3 class="h3-prodact-title">NaOH</h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="prodact-item">
+                                    <a href="#" class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product 2.svg" alt="">
+                                        <h3 class="h3-prodact-title">NaOH</h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="prodact-item">
+                                    <a href="#" class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product3.svg" alt="">
+                                        <h3 class="h3-prodact-title">Cl
+                                            <sub>2</sub>
+                                        </h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--</div>-->
+                                <!--<div class="prodacts-item-row">-->
+                                <div class="prodact-item">
+                                    <a href="#" class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product1.svg" alt="">
+                                        <h3 class="h3-prodact-title">NaOH</h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="prodact-item">
+                                    <a href="#" class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product 2.svg" alt="">
+                                        <h3 class="h3-prodact-title">HCL</h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="prodact-item">
+                                    <a href="#"class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product1.svg" alt="">
+                                        <h3 class="h3-prodact-title">FeCl
+                                            <sub>3</sub>
+                                        </h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--</div>-->
+                                <!--<div class="prodacts-item-row">-->
+                                <div class="prodact-item">
+                                    <a href="#" class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product1.svg" alt="">
+                                        <h3 class="h3-prodact-title">NaOH</h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="prodact-item">
+                                    <a href="#" class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product 2.svg" alt="">
+                                        <h3 class="h3-prodact-title">HCL</h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="prodact-item">
+                                    <a href="#" class="visbl-prodact">
+                                        <img src="img/svg/icons-products/icon-product1.svg" alt="">
+                                        <h3 class="h3-prodact-title">FeCl
+                                            <sub>3</sub>
+                                        </h3>
+                                    </a>
+                                    <div class="hover-prodact">
+                                        <div class="top-title-prodact">
+                                            Fosfato lorem
+                                        </div>
+                                        <div class="presentation">
+                                            <div class="top-title-presentation">presenttion</div>
+                                            <a href="" class="link-prodact">Test 1 prodact</a>
+                                            <a href="" class="link-prodact">Test 2 prodact</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="counter hidden-sm-up">
+                            <span></span>/
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <!--<div class="bottom_slider_content">-->
+                    <!---->
+                    <!--</div>-->
+
+
+
+
+
+
+                    <div class="bottom_slider_content hidden-sm-up">
+                        <div class="presentacion">
+                            <p>Presentacion</p>
+                        </div>
+                        <div class="presentacion_slider" id="pager_presentacion_slider">
+                            <div class="presentation active">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                            <div class="presentation">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                            <div class="presentation">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                            <div class="presentation">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                            <div class="presentation">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                            <div class="presentation">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                            <div class="presentation">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                            <div class="presentation">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                            <div class="presentation">
+                                <a href="" class="link-prodact">Test 1 prodact</a>
+                                <a href="" class="link-prodact">Test 2 prodact</a>
+                            </div>
+                        </div>
+                        <a href="#contact_popup" class="btn popup-modal popup-modal red-btn-main call-btn hidden-sm-up">
+                            <span class="visable-text">ATENCIÓN AL CLIENTE</span>
+                            <span class="hidden-text">ATENCIÓN AL CLIENTE</span>
+                        </a>
+                    </div>
+
+
+                    <div class="prodacts-bottom-btn">
+                        <a href="#" class="btn red-btn-main">
+                            <span class="visable-text">ver más</span>
+                            <span class="hidden-text">ver más</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <div class="certificate-popup galery-popup popup" id="certificate-1">
+        <div class="popup-wrapper">
+            <div class="popup-content">
+                <div class="top-popup-content">
+                    <div class="left-popup-content">
+                        <h3 class="h3">OQUENDO</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="right-popup-content">
+                        <a href="#" class="popup-dismiss">cerrar</a>
+                    </div>
+                </div>
+                <div class="galery-main-content">
+                    <a href="#certificate-3" class="galery-item video popup-modal">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            ver video
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                </div>
+                <div class="galery-main-content">
+                    <a href="#certificate-3" class="galery-item video popup-modal">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            ver video
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                </div>
+                <div class="galery-main-content">
+                    <a href="#certificate-3" class="galery-item video popup-modal">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            ver video
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="certificate-popup galery-popup popup" id="certificate-2">
+        <div class="popup-wrapper">
+            <div class="popup-content">
+                <div class="top-popup-content">
+                    <div class="left-popup-content">
+                        <h3 class="h3">OQUENDO</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="right-popup-content">
+                        <a href="#" class="popup-dismiss">cerrar</a>
+                    </div>
+                </div>
+                <div class="galery-main-content">
+                    <a href="#certificate-3" class="galery-item video popup-modal">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            ver video
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                </div>
+                <div class="galery-main-content">
+                    <a href="#certificate-3" class="galery-item video popup-modal">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            ver video
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                </div>
+                <div class="galery-main-content">
+                    <a href="#certificate-3" class="galery-item video popup-modal">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            ver video
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                    <a href="#" class="galery-item photo">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            VER GALERÍA
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="certificate-popup galery-popup popup" id="certificate-3">
+        <div class="popup-wrapper">
+            <div class="popup-content">
+                <div class="top-popup-content">
+                    <div class="left-popup-content">
+                        <h3 class="h3">OQUENDO</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="right-popup-content">
+                        <a href="#" class="popup-dismiss">cerrar</a>
+                    </div>
+                </div>
+                <div class="galery-main-content">
+                    <a href="#certificate-3" class="galery-item video popup-modal">
+                        <img src="img/galery/1.jpg" alt="">
+                        <div class="hover-conent">
+                            ver video
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="certificate-popup popup_plan popup" id="proceso">
+        <div class="popup-wrapper">
+            <div class="popup-content">
+                <a href="#" class="popup-dismiss">cerrar</a>
+                <h3 class="h1 h1-low-size">PROCESO
+                    <span class="h-bottom-text">PRODUCTIVO
+                        <span class="right-line"></span>
+                    </span>
+                </h3>
+
+                <img src="img/svg/Estruc-Operaciones/map-sales.svg" alt="">
+                <!--<a href="/certificados/APN/DCIP-OQ-2014.pdf" download class="download-btn red-btn">Descargar</a>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="contact_popup popup" id="contact_popup">
+        <div class="popup-wrapper">
+            <div class="popup-content popup-call">
+                <div class="popup-call">
+                    <div class="top_title popup-call">
+                        <h3 class="popup-call">Dejar un mensaje</h3>
+                        <a href="#" class="popup-dismiss "></a>
+                    </div>
+                    <form action="" class="popup-call">
+                        <div class="main_content popup-call">
+
+                            <div class="form-content popup-call">
+
+                                <div class="form-row popup-call">
+                                    <input type="text" class="popup-call" required placeholder="Nombre">
+                                </div>
+
+                                <div class="form-row popup-call">
+                                    <input type="email" class="popup-call" required placeholder="Email">
+                                </div>
+
+                                <div class="form-row-select popup-call">
+                                    <div class="contact-select popup-call">
+                                        <select class="select-value popup-call">
+                                            <option class="popup-call" value="">Motivo del Contacto</option>
+                                            <option value="" class="popup-call">Motivo del Contacto</option>
+                                        </select>
+                                        <p class="popup-call">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto laudantium qui ullam?
+                                        </p>
+                                    </div>
+
+                                    <div class="form-row popup-call">
+                                        <input type="text" class="popup-call" required placeholder="Orden">
+                                        <p class="popup-call">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto laudantium qui ullam?
+                                        </p>
+                                    </div>
+
+                                    <div class="form-row popup-call">
+                                        <h4 class="popup-call">¿Que hacemos?</h4>
+                                        <textarea class="popup-call"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom_button">
+                            <a href="#" class="popup-dismiss btn">Cencelar</a>
+                            <input class="popup-call" type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="footer footer-mod hidden-sm-down">
+            <div class="footer-wrapper">
+                <p>Desarrollado por
+                    <a href="#">
+                        <img src="img/Logo/seek-logo.png" alt="">
+                    </a>
+                </p>
+            </div>
+        </footer>
+
+    <style>
+        body {
+            opacity: 1;
+        }
+    </style>
+</body>
+
+</html>

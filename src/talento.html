@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Webpack</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <!-- Favicons -->
+    <!-- <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
+
+
+
+
+</head>
+
+<body class="talento">
+
+<div class="preloader">
+    <div class="top_progres_bar">
+        <div class="loadbar"></div>
+    </div>
+    <img src="img/preloader.svg">
+</div>
+
+    <section class="section home section-dark" id="01">
+        <header class="header">
+            <nav class="top-menu top_mobile_menu hid-lg-up">
+                <menu>
+                    <li>
+                        <a href="#">Hechos de importancia</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                    </li>
+                    <li>
+                        <a href="#">Factura electrónica</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                    </li>
+                    <li>
+                        <a href="#">Registro de proveedores</a>
+                    </li>
+                    <!-- <li class="lang-buttons">
+                        <a href="" class="active">esp</a>
+                        <a href="">eng</a>
+                    </li> -->
+                </menu>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-sm-4">
+                        <div class="logo">
+                            <a href="http://seekdev.com/quimpac">
+                                <img class="img-responsive" src="img/Logo/logo.png" alt="">
+                                <img class="img-responsive" src="img/png/logo-prodacts-page.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 hid-lg-down top_menu_wrapper">
+                        <nav class="top-menu hid-lg-down">
+                            <menu>
+                                <li>
+                                    <a href="#">Hechos de importancia</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                                </li>
+                                <li>
+                                    <a href="#">Factura electrónica</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                                </li>
+                                <li>
+                                    <a href="#">Registro de proveedores</a>
+                                </li>
+                                <!-- <li class="lang-buttons">
+                                    <a href="" class="active">esp</a>
+                                    <a href="">eng</a>
+                                </li> -->
+                            </menu>
+                        </nav>
+                        <nav class="main-menu">
+                            <menu>
+                                <li class="hid-lg-up">
+                                    <a href="http://seekdev.com/quimpac">inicio</a>
+                                </li>
+                                <li>
+                                    <a>quienes somos</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/nuestra-empresa.html">Nuestra Empresa</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/que-hacemos.html">Que Hacemos</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu">
+                                    <a>operaciones</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/quimicos.html">Químicos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/fosfatos.html">Fosfatos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/sales-industriales.html"> Sales Industriales</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/sales-industriales.html"> Sal Marina Emsal</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="http://seekdev.com/quimpac/talento.html">talento</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/quimicos.html">Nuestra Gente</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="http://seekdev.com/quimpac/contactanos.html">contáctenos</a>
+                                </li>
+                                <!-- <li class="search">
+                                    <i class="icon-search"></i>
+                                    <form class="header-input-filds" action="">
+                                        <input type="search">
+                                        <input type="submit" value='Buscar'>
+                                    </form>
+                                </li> -->
+                            </menu>
+                        </nav>
+                    </div>
+                    <div class="col-3 col-sm-8 hid-lg-up align-self-center">
+                        <div class="hamburger">
+                            <div id="nav-icon3">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header-Main Cobtent -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8">
+                    <div class="home-content">
+                        <h1 class="h1">Talento
+                            <span class="right-line"></span>
+                        </h1>
+                        <h2 class="h2">Lorem Ipsum is simply dummy text of the printing and typesetting</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                            type and scrambled it to.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header scroll to bottom -->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col">-->
+                    <!--<div class="scroll-to-bottom">-->
+                        <!--<a href="#02">-->
+                            <!--<span class="line"></span>-->
+                            <!--<span class="text">¿Qué hacemos?</span>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <ul class="pagination no_pagin">
+            <li>
+                <a class="active" href="#01">
+                    <span class="hover-text">01</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#02">
+                    <span class="hover-text">02</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#03">
+                    <span class="hover-text">03</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#04">
+                    <span class="hover-text">04</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#05">
+                    <span class="hover-text">05</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section valores section-dark section-productos lite-section" id="02">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="products-wrapper">
+                        <div class="accordion-wrapper accordion-slider">
+
+                            <div class="accordion-item-wrapper">
+                                <div class="accordion-item active">
+                                    <div class="title">
+                                        <span class="ring"></span>
+                                        Valores
+                                    </div>
+                                    <div class="content">
+
+                                        <ul class="valores_tab">
+                                            <li>
+                                                <img src="img/svg/icons-talento/honestidad.svg" alt="">
+                                                <p>HONESTIDAD</p>
+                                            </li>
+                                            <li>
+                                                <img src="img/svg/icons-talento/respeto.svg" alt="">
+                                                <p>RESPETO</p>
+                                            </li>
+                                            <li>
+                                                <img src="img/svg/icons-talento/pasion.svg" alt="">
+                                                <p>PASIÓN POR NUESTRO TRABAJO</p>
+                                            </li>
+                                            <li>
+                                                <img src="img/svg/icons-talento/seguridad.svg" alt="">
+                                                <p>SEGURIDAD</p>
+                                            </li>
+                                            <div class="w100"></div>
+                                            <li>
+                                                <img src="img/svg/icons-talento/COMPROMISO.svg" alt="">
+                                                <p>COMPROMISO</p>
+                                            </li>
+                                            <li>
+                                                <img src="img/svg/icons-talento/PERTENENCIA.svg" alt="">
+                                                <p>SENTIDO DE PERTENENCIA
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <img src="img/svg/icons-talento/MEJORA CONTINUA.svg" alt="">
+                                                <p>MEJORA CONTINUA
+                                                </p>
+                                            </li>
+                                            <li></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item-wrapper">
+                                <div class="accordion-item">
+                                    <div class="title">
+                                        <span class="ring"></span>
+                                        ¿por qué trabajar en quimpac?
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-list-item no_arrow">
+                                            <div>buscamos que nuestro personal tenga la oportunidad trabajar en su desarrollo
+                                                participando de los distintos programas que tenemos, siendo los principales</div>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Desarrollo de proyectos </div>
+                                            <ul>
+                                                <li>Participar en el diagnóstico, diseño de soluciones y en las implementaciones, junto a proveedores locales e internacionales, es una oportunidad profesional sin comparación en nuestra empresa. </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Crece con nosotros</div>
+                                            <ul>
+                                                <li>Es la oportunidad de crecer dentro de nuestra empresa a través de los procesos de postulación interna para cubrir posiciones de mayor responsabilidad.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Programa de Desarrollo de Trainees</div>
+                                            <ul>
+                                                <li>Enfocados en desarrollar jóvenes, bajo un proceso de selección, de los últimos ciclos de las universidades e Institutos técnicos, sobre todo en materias como Ingeniería Química, Industrial, Electrónica, Mantenimiento y Mecánica industrial, principalmente.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Aprende practicando</div>
+                                            <ul>
+                                                <li>Programa de prácticas que busca desarrollar competencias profesionales en los jóvenespor egresar o egresados de las Universidades e Institutos Técnicos en Áreas como Finanzas, Contabilidad, Presupuestos, Exportaciones, Ventas, Marketing, Recursos Humanos, Operaciones, Logística, Legal, etc. </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item-wrapper">
+                                <div class="accordion-item">
+                                    <div class="title">
+                                        <span class="ring"></span>
+                                        filosofía del talento
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-list-item no_child">
+                                            <div>Programa de prácticas que busca desarrollar competencias profesionales en los
+                                                jóvenes por egresar o egresados de las Universidades e Institutos Técnicos
+                                                en Áreas como Finanzas, Contabilidad, Presupuestos, Exportaciones, Ventas,
+                                                Marketing, Recursos Humanos, Operaciones, Logística, Legal, etc.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item-wrapper">
+                                <div class="accordion-item">
+                                    <div class="title">
+                                        <span class="ring"></span>
+                                        Oportunidades de carrera
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-list-item">
+                                            <div>Carrera de Operaciones</div>
+                                            <ul>
+                                                <li>mplica desarrollarse áreas vinculadas a la producción en nuestras plantas químicas, distribución, logística, refinería, control de calidad, etc. así como en diferentes niveles de posición, según el desempeño logrado, actitud positiva y competencias que desarrolle el colaborador.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Carrera Comercial</div>
+                                            <ul>
+                                                <li>Hacer la carrera comercial implica tener la posibilidad de desarrollarse en áreas de marketing, ventas locales, ventas internacionales, exportaciones, haciéndose especialista en ventas de productos químicos destinados a la nutrición animal, vías y caminos, tratamiento de agua, sales industriales, etc. </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Carrera Administrativa</div>
+                                            <ul>
+                                                <li>Brindamos la oportunidad de desarrollo profesional en Finanzas, Contabilidad, Presupuestos y Recursos Humanos, teniendo equipos multidisciplinarios profesionales en Contabilidad, Economía, Ingeniería, Administración, Psicología, Trabajadoras Sociales, Médicos, entre otros. </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Carrera de Sistemas</div>
+                                            <ul>
+                                                <li>Nuestra empresa cuenta con un equipo especializado en sistemas brindando el soporte a las operaciones del negocio, así como a dar facilidades a los colaboradores a realizar mejor su trabajo mediante una plataforma SAPprincipalmente.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-list-item">
+                                            <div>Carrera Interdisciplinarias</div>
+                                            <ul>
+                                                <li>Adquirir un desarrollo y experiencia recorriendo con éxito diferentes carreras dentro de la empresa es un desafío que pueden tener la oportunidad nuestros colaboradores que se preparan para ello con nuestro soporte.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="right_img">
+            <img src="img/images-hd/talento/img-TALENTO--2.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="section section-dark cultura-section" id="03">
+        <div class="cultura-wrapper">
+            <div class="left-cultura-content">
+                <img class="img-responsive" src="img/images-hd/home/img-CULTURA-QUIMPAC.jpg" alt="">
+            </div>
+            <div class="right-cultura-content">
+                <h3 class="h1 h1-low-size">cultura
+                    <span class="h-bottom-text">quimpac
+                        <span class="right-line"></span>
+                    </span>
+                </h3>
+                <p>El desafío de seguir mejorando y creciendo, va de la mano con nuestro permanente desarrollo técnico-profesional,
+                    por ello nuestro compromiso y pasión por nuestro trabajo impulsa a que tengamos foco en tener ambientes
+                    seguros, ofrecer productos de calidad a nuestros clientes, ser expertos técnicos en cada puesto que desempeñamos
+                    y contar con un buen ambiente para trabajar.
+                </p>
+                <!--<a href="#" class="btn red-btn-main">-->
+                    <!--<span class="visable-text">IR A TALENTO</span>-->
+                    <!--<span class="hidden-text">IR A TALENTO</span>-->
+                <!--</a>-->
+            </div>
+        </div>
+
+        <!--<div class="hidden-sm-up">-->
+        <!--<div class="section memoria" id="04">-->
+        <!--<div class="cultura-wrapper">-->
+        <!--<div class="image">-->
+        <!--<img src="img/images-hd/talento/img-TALENTO&#45;&#45;2.jpg" alt="">-->
+        <!--</div>-->
+        <!--<div class="right-cultura-content">-->
+        <!--<h3 class="h1 h1-low-size">Memoria-->
+        <!--<span class="h-bottom-text">Anual 2016-->
+        <!--<span class="right-line"></span>-->
+        <!--</span>-->
+        <!--</h3>-->
+        <!--<p>El desafío de seguir mejorando y creciendo, va de la mano con nuestro permanente desarrollo técnico-profesional, por ello-->
+        <!--nuestro compromiso y pasión por nuestro trabajo impulsa a que tengamos foco en tener ambientes seguros, ofrecer productos-->
+        <!--de calidad a nuestros clientes, ser expertos técnicos en cada puesto que desempeñamos y contar con un buen ambiente para-->
+        <!--trabajar.</p>-->
+        <!--<a href="#" class="btn red-btn-main">-->
+        <!--<span class="visable-text">IR A TALENTO</span>-->
+        <!--<span class="hidden-text">IR A TALENTO</span>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+    </section>
+
+    <section class="section section-dark testimonios lite-section" id="04">
+
+        <div>
+            <div class="container">
+                <h2 class="h2_line">Testimonios
+                    <span>_</span>
+                </h2>
+            </div>
+            <div class="testimonius_slider_wrapper">
+                <div class="testimonius_slider">
+
+                    <div class="item">
+                        <a href="#person-1" class="img popup-modal">
+                            <img src="img/talento_people/p1.jpg" alt="">
+                        </a>
+                        <div class="content">
+                            <h4>MARCO REATEGUI</h4>
+                            <span>JEFE DE PRODUCCIÓN</span>
+                            <p>Lorem Ipsum isa simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <a href="#person-1" class="img popup-modal">
+                            <img src="img/talento_people/p1.jpg" alt="">
+                        </a>
+                        <div class="content">
+                            <h4>MARCO REATEGUI</h4>
+                            <span>JEFE DE PRODUCCIÓN</span>
+                            <p>Lorem Ipsum isa simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <a href="#person-1" class="img popup-modal">
+                            <img src="img/talento_people/p1.jpg" alt="">
+                        </a>
+                        <div class="content">
+                            <h4>MARCO REATEGUI</h4>
+                            <span>JEFE DE PRODUCCIÓN</span>
+                            <p>Lorem Ipsum isa simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <a href="#person-1" class="img popup-modal">
+                            <img src="img/talento_people/p1.jpg" alt="">
+                        </a>
+                        <div class="content">
+                            <h4>MARCO REATEGUI</h4>
+                            <span>JEFE DE PRODUCCIÓN</span>
+                            <p>Lorem Ipsum isa simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <a href="#person-1" class="img popup-modal">
+                            <img src="img/talento_people/p1.jpg" alt="">
+                        </a>
+                        <div class="content">
+                            <h4>MARCO REATEGUI</h4>
+                            <span>JEFE DE PRODUCCIÓN</span>
+                            <p>Lorem Ipsum isa simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <a href="#person-1" class="img popup-modal">
+                            <img src="img/talento_people/p1.jpg" alt="">
+                        </a>
+                        <div class="content">
+                            <h4>MARCO REATEGUI</h4>
+                            <span>JEFE DE PRODUCCIÓN</span>
+                            <p>Lorem Ipsum isa simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <a href="#person-1" class="img popup-modal">
+                            <img src="img/talento_people/p1.jpg" alt="">
+                        </a>
+                        <div class="content">
+                            <h4>MARCO REATEGUI</h4>
+                            <span>JEFE DE PRODUCCIÓN</span>
+                            <p>Lorem Ipsum isa simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="section section-dark contactaons" id="05">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="contact-wrapper">
+                        <div class="contact-content">
+                            <h1 class="h1 h1-lowest-size h1-with-line">trabaja
+                                <br>con nosotros</h1>
+                            <h3 class="h3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since the 1500.</h3>
+                            <form action="" class="contact-form">
+                                <div class="form-content">
+                                    <h4 class="h4">¿qué puesto le interesa?</h4>
+                                    <div class="form-row-select">
+                                        <div class="contact-select">
+                                            <div class="select-value">contactarse con</div>
+                                            <div class="select">
+                                                <input name="whom" id="sal-marina-emsal" type="radio" value="Sal marina emsal">
+                                                <label for="sal-marina-emsal">Sal marina emsal</label>
+
+                                                <input name="whom" id="sales-industriales" type="radio" value="Sales industriales">
+                                                <label for="sales-industriales">Sales industriales</label>
+
+                                                <input name="whom" id="quimicos" type="radio" value="Quimicos">
+                                                <label for="quimicos">Quimicos</label>
+
+                                                <input name="whom" id="fosfatos" type="radio" value="Fosfatos">
+                                                <label for="fosfatos">Fosfatos</label>
+                                            </div>
+                                            <div class="select-bottom">
+                                                Lorem, ipsum dolor.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <input type="text" required placeholder="nombre y apellido">
+                                    </div>
+
+                                    <div class="form-row">
+                                        <input type="email" required placeholder="email">
+                                    </div>
+
+                                </div>
+                                <div class="bot_form_row">
+                                    <label class="fileContainer">
+                                        <img src="img/icon-carpet.svg"> ADJUNTAR CV
+                                        <input type="file" />
+                                    </label>
+                                    <button class="btn submit-btn" type="submit">
+                                        <span class="">Envíar</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+
+    </footer>
+            <footer class="footer footer-mod hidden-sm-down">
+                <div class="footer-wrapper">
+                    <p>Desarrollado por
+                        <a href="#">
+                            <img src="img/Logo/seek-logo.png" alt="">
+                        </a>
+                    </p>
+                </div>
+            </footer>
+
+    <div class="certificate-popup video_item_modal galery-popup popup" id="person-1">
+        <div class="popup-wrapper">
+            <div class="popup-content">
+                <div class="top-popup-content">
+                    <div class="left-popup-content">
+                        <h3 class="h3">OQUENDO</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="right-popup-content">
+                        <a href="#" class="popup-dismiss">cerrar</a>
+                    </div>
+                </div>
+                <div class="galery-main-content">
+                    <a href="#certificate-3" class="galery-item video popup-modal">
+                        <iframe src="https://player.vimeo.com/video/249502066?title=0&byline=0&portrait=0&badge=0" width="640" height="360" frameborder="0"
+                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        body {
+            opacity: 1;
+        }
+    </style>
+</body>
+
+</html>

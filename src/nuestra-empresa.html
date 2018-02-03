@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Webpack</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <!-- Favicons -->
+    <!-- <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
+
+
+
+
+</head>
+
+<body class="quines-somos nuesta_empresa">
+
+<div class="preloader">
+    <div class="top_progres_bar">
+        <div class="loadbar"></div>
+    </div>
+    <img src="img/preloader.svg">
+</div>
+
+    <section class="section home quines-somos-home section-dark" id="01">
+        <header class="header">
+            <nav class="top-menu top_mobile_menu hid-lg-up">
+                <menu>
+                    <li>
+                        <a href="#">Hechos de importancia</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                    </li>
+                    <li>
+                        <a href="#">Factura electrónica</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                    </li>
+                    <li>
+                        <a href="#">Registro de proveedores</a>
+                    </li>
+                    <!-- <li class="lang-buttons">
+                        <a href="" class="active">esp</a>
+                        <a href="">eng</a>
+                    </li> -->
+                </menu>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-sm-4">
+                        <div class="logo">
+                            <a href="http://seekdev.com/quimpac">
+                                <img class="img-responsive" src="img/Logo/logo.png" alt="">
+                                <img class="img-responsive" src="img/png/logo-prodacts-page.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 hid-lg-down top_menu_wrapper">
+                        <nav class="top-menu hid-lg-down">
+                            <menu>
+                                <li>
+                                    <a href="#">Hechos de importancia</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                                </li>
+                                <li>
+                                    <a href="#">Factura electrónica</a> <span class="hid-lg-down">/</span> <span class="hid-lg-up">|</span>
+                                </li>
+                                <li>
+                                    <a href="#">Registro de proveedores</a>
+                                </li>
+                                <!-- <li class="lang-buttons">
+                                    <a href="" class="active">esp</a>
+                                    <a href="">eng</a>
+                                </li> -->
+                            </menu>
+                        </nav>
+                        <nav class="main-menu">
+                            <menu>
+                                <li class="hid-lg-up">
+                                    <a href="http://seekdev.com/quimpac">inicio</a>
+                                </li>
+                                <li>
+                                    <a>quienes somos</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/nuestra-empresa.html">Nuestra Empresa</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/que-hacemos.html">Que Hacemos</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu">
+                                    <a>operaciones</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/quimicos.html">Químicos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/fosfatos.html">Fosfatos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/sales-industriales.html"> Sales Industriales</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/sales-industriales.html"> Sal Marina Emsal</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="http://seekdev.com/quimpac/talento.html">talento</a>
+                                    <ul>
+                                        <li>
+                                            <a href="http://seekdev.com/quimpac/quimicos.html">Nuestra Gente</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="http://seekdev.com/quimpac/contactanos.html">contáctenos</a>
+                                </li>
+                                <!-- <li class="search">
+                                    <i class="icon-search"></i>
+                                    <form class="header-input-filds" action="">
+                                        <input type="search">
+                                        <input type="submit" value='Buscar'>
+                                    </form>
+                                </li> -->
+                            </menu>
+                        </nav>
+                    </div>
+                    <div class="col-3 col-sm-8 hid-lg-up align-self-center">
+                        <div class="hamburger">
+                            <div id="nav-icon3">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header-Main Cobtent -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-7">
+                    <div class="home-content">
+                        <h3 class="h1">nuestra
+                            <span class="h-bottom-text">empresa
+                                <span class="right-line"></span>
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="main-slider-content">
+                        <p>Quimpac es actualmente el único productor integrado de sal y productos químicos en el Perú, y uno
+                            de los cinco mayores productores de cloro-soda en Sudamérica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="pagination no_pagin">
+            <li>
+                <a class="active" href="#01">
+                    <span class="hover-text">01</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#02">
+                    <span class="hover-text">02</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#03">
+                    <span class="hover-text">03</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#04">
+                    <span class="hover-text">04</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#05">
+                    <span class="hover-text">05</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#06">
+                    <span class="hover-text">06</span>
+                </a>
+            </li>
+        </ul>
+
+    </section>
+    <section class="section quines-somos-section mision-section" id="02">
+        <div class="cultura-wrapper">
+            <div class="left-cultura-content">
+                <img class="img-responsive" src="img/images-hd/que-hacemos/mision.jpg" alt="">
+            </div>
+            <div class="right-cultura-content">
+                <div class="relative">
+                    <div>
+                        <h3 class="h1 h1-vertical">misión
+                        </h3>
+                    </div>
+                    <p>Desarrollar excelentes relaciones con nuestros clientes en mercados locales y regionales, basados en
+                        nuestro liderazgo en costos en la costa pacífica sudamericana, y apoyados por las redes de distribución
+                        que desarrollamos para nuestros productos químicos y sales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section right-left-section blak-section quines-somos-section" id="03">
+        <div class="cultura-wrapper">
+            <div class="right-cultura-content">
+                <div class="relative">
+                    <div>
+                        <h3 class="h1 h1-vertical vision-title">VISIÓN
+                        </h3>
+                    </div>
+                    <p>Ser una empresa líder de la industria química en Sudamérica, a través de la consolidación de nuestras
+                        operaciones, la potenciación de sinergias y el desarrollo de nuevos mercados.</p>
+                </div>
+            </div>
+            <div class="left-cultura-content">
+                <img class="img-responsive" src="img/images-hd/que-hacemos/vision.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="section red-section quines-somos-section" id="04">
+        <div class="cultura-wrapper">
+            <div class="left-cultura-content">
+                <img class="img-responsive" src="img/images-hd/que-hacemos/social.jpg" alt="">
+            </div>
+            <div class="right-cultura-content">
+                <div class="relative">
+                    <div>
+                        <h3 class="h1 h1-vertical social-title">SOCIAL
+                        </h3>
+                    </div>
+                    <h4 class="h4">RESPONSABILIDAD SOCIAL</h4>
+                    <p>Conscientes de la necesidad de contribuir con el desarrollo en nuestro país y siendo una empresa referente
+                        en la industria química peruana, hemos aportado nuestra experiencia en el sector para apoyar activamente
+                        a los Gobiernos Regionales de Piura, Lambayeque y la Libertad, proporcionándoles asistencia técnica
+                        en la aplicación de 25000 toneladas de Cloruro de Calcio en vías no asfaltadas, con la finalidad
+                        de disminuir la emisión de polvos que afecten a las poblaciones aledañas, así como a los productos
+                        agrícolas en las zonas de influencia de dichas vías.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section years-slider-section quines-somos-section lite-section" id="05">
+        <div class="slider-wrapepr">
+            <div class="left-title-static">
+                <h3 class="h1 h1-vertical">
+                    <span class="h-vertical-bottom">TIEMPO</span>
+                    LÍNEA DE
+            </div>
+            <div class="right-slider">
+                <div class="main-slider">
+                    <div class="main-slider-item">
+                        <div id="inside-slider-1" class="inside-slider">
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">60´S</h3>
+                                <h4 class="h2">
+                                    1964
+                                </h4>
+                                <p>La empresa Química del Pacífico, subsidiaria de Morton Chemical Company, se constituye con
+                                    una capacidad de producción anual de 4,200 DMT de soda cáustica.</p>
+                            </div>
+
+                        </div>
+                        <div id="inside-slider-1-pager" class="inside-slider-pager">
+                            <ul>
+                                <li>
+                                    <a data-slide-index="0">1964</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-slider-item">
+                        <div id="inside-slider-2" class="inside-slider">
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">70´S</h3>
+                                <h4 class="h2">
+                                    1975
+                                </h4>
+                                <p>Se incrementa la capacidad de producción anual a 32,000 DMT de soda cáustica.</p>
+                                <p>Entra en funcionamiento la refinería de sal en Oquendo con una capacidad anual de 66,000
+                                    TM.
+                                </p>
+                                <p>La empresa es nacionalizada por el gobierno y sus acciones pasan a manos del Estado peruano.</p>
+                            </div>
+
+                        </div>
+                        <div id="inside-slider-2-pager" class="inside-slider-pager">
+                            <ul>
+                                <li>
+                                    <a data-slide-index="0">1975</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-slider-item">
+                        <div id="inside-slider-3" class="inside-slider">
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">80´S</h3>
+                                <h4 class="h2">
+                                    1981
+                                </h4>
+                                <p>Se incrementa la capacidad de producción anual a 48,000 DMT de soda cáustica.</p>
+                            </div>
+
+                        </div>
+                        <div id="inside-slider-3-pager" class="inside-slider-pager">
+                            <ul>
+                                <li>
+                                    <a data-slide-index="0">1981</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-slider-item">
+                        <div id="inside-slider-4" class="inside-slider">
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">90´S</h3>
+                                <h4 class="h2">
+                                    1991
+                                </h4>
+                                <p>La planta de fosfato bicálcico inicia sus operaciones con una capacidad anual de 8,000 TM.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">90´S</h3>
+                                <h4 class="h2">
+                                    1992
+                                </h4>
+                                <p>Los actuales accionistas adquieren el control de la compañía, como parte del proceso de privatización.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">90´S</h3>
+                                <h4 class="h2">
+                                    1994
+                                </h4>
+                                <p>La empresa adquiere las acciones de Empresa de la Sal (Emsal S.A.), se incrementa la capacidad
+                                    conjunta de producción de sal en las refinerías de Oquendo y Huacho a 150,000 TM por
+                                    año.
+                                </p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">90´S</h3>
+                                <h4 class="h2">
+                                    1996
+                                </h4>
+                                <p>Se constituye Quimpac S.A., como resultado de la fusión de Química del Pacífico S.A. y Servicios
+                                    Químicos Óptimos S.A.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">90´S</h3>
+                                <h4 class="h2">
+                                    1997
+                                </h4>
+                                <p>Quimpac S.A. adquiere los activos del complejo Químico – Papelero de Paramonga que incluyen
+                                    la planta de papel y una nueva Planta de Cloro-Soda (Planta de Paramonga).</p>
+                                <p>Se incrementa la capacidad de la refinería de sal en Oquendo. Así, la capacidad de Quimpac
+                                    alcanza 180,000 TM por año.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">90´S</h3>
+                                <h4 class="h2">
+                                    1998
+                                </h4>
+                                <p>La planta de Paramonga inicia sus operaciones. Como resultado, Quimpac incrementa su capacidad
+                                    de producción a 90,000 DMT anuales de soda cáustica</p>
+                            </div>
+                        </div>
+                        <div id="inside-slider-4-pager" class="inside-slider-pager">
+                            <ul>
+                                <li>
+                                    <a data-slide-index="0">1991</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1">1992</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2">1994</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3">1996</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4">1997</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="5">1998</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-slider-item">
+                        <div id="inside-slider-5" class="inside-slider">
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2000
+                                </h4>
+                                <p>Se incrementa la capacidad de producción anual de la planta de fosfato bicálcico a 64,000
+                                    TM.
+                                </p>
+                                <p>Quimpac ingresa al mercado de capitales primario mediante la emisión de bonos de titulación
+                                    de flujos futuros a siete años (rating AA+), en la primera operación de este tipo realizada
+                                    en Perú. Quimpac implementa el sistema SAP R/3 como base para la gestión de información
+                                    de la empresa.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2001
+                                </h4>
+                                <p>Quimpac emite su primer programa de papeles comerciales por US$ 5 millones con el objetivo
+                                    de diversificar sus fuentes de financiamiento y reducir su costo financiero.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2003
+                                </h4>
+                                <p>Se amplía la capacidad de producción de las plantas químicas de Oquendo y Paramonga en 25%.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2004
+                                </h4>
+                                <p>Quimpac realiza su primera emisión de bonos corporativos, por US$ 20 millones a un plazo
+                                    de 7 años, con rating AA.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2005
+                                </h4>
+                                <p>Quimpac S.A y Quimpac de Colombia S.A. adquieren el control de PRODESAL S.A.</p>
+                                <p>Las clasificadoras de riesgo Apoyo & Asociados y Equilibrium mejoraron la clasificación de
+                                    los bonos de titulación de Quimpac, de AA+ a AAA.</p>
+                                <p>Se aprueba en junta general de accionistas la fusión de Quimpac S.A. y Empresa de la Sal
+                                    (EMSAL)
+                                </p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2006
+                                </h4>
+                                <p>Se inicia el nuevo plan de inversiones 2006 – 2008 por US$ 52 millones.</p>
+                                <p>Comienzan los trabajos de ampliación de la planta de fosfato bicálcico y la construcción
+                                    de una nueva planta de soda cáustica sólida.
+                                </p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2007
+                                </h4>
+                                <p>Se entrega en arriendo la planta de papel a Papelera Nacional S.A. a cambio de un alquiler
+                                    fijo trimestral.</p>
+                                <p>Quimpac S.A. eleva su participación en Productos Derivados de la Sal S.A. a 80.1%.</p>
+                                <p>El Banco Holandés FMO otorga un financiamiento por US$ 25 millones para el plan de inversiones.</p>
+                                <p>Se concluye el proyecto de ampliación del 50% de la capacidad de la planta de fosfato bicálcico.</p>
+                                <p>Entra en funcionamiento la planta de soda cáustica sólida, con una capacidad de producción
+                                    de 50 DMT diarias.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2008
+                                </h4>
+                                <p>Entra en operación la Refinería de Sal en Chiclayo (Lambayeque) construida con el objetivo
+                                    incursionar en nuevos mercados.</p>
+                                <p>Se concluye la implementación de los proyectos medioambientales que cumplen con los requisitos
+                                    de Ministerio de la Producción en el Marco del Programa de Adecuación Medioambiental
+                                    (PAMA)
+                                </p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">00´S</h3>
+                                <h4 class="h2">
+                                    2009
+                                </h4>
+                                <p>Quimpac adquiere el 25.1% de participación en la empresa Kallpa Generación S.A, dedicada
+                                    a la generación eléctrica.</p>
+                                <p>Prodesal cambia de nombre a Quimpac de Colombia.</p>
+                            </div>
+                        </div>
+                        <div id="inside-slider-5-pager" class="inside-slider-pager">
+                            <ul>
+                                <li>
+                                    <a data-slide-index="0">2000</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1">2001</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2">2003</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3">2004</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4">2005</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="5">2006</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="6">2007</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="7">2008</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="8">2009</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-slider-item">
+                        <div id="inside-slider-6" class="inside-slider">
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">10´S</h3>
+                                <h4 class="h2">
+                                    2010
+                                </h4>
+                                <p>Quimpac y Cementos Pacasmayo S.A.A. firman un acuerdo para conformar la empresa Salmueras
+                                    Sudamericanas S.A.</p>
+                                <p>Quimpac inicia el desarrollo de la mayor expansión de su historia, un 54% de incremento en
+                                    su capacidad productiva de Cloro-Soda en Perú complementada por una nueva Planta de Productos
+                                    Fosfatados.
+                                </p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">10´S</h3>
+                                <h4 class="h2">
+                                    2011
+                                </h4>
+                                <p>Se crea Energía del Pacífico S.A. con el objetivo de administrar el negocio energético. La
+                                    compañía se forma como producto de una escisión patrimonial de Quimpac.</p>
+                                <p>Quimpac recibe un crédito sindicado de mediano plazo por US$ 150 millones otorgado por los
+                                    bancos BCP, BBVA Continental y Scotiabank. Los fondos se utilizan para reestructurar
+                                    deudas vigentes hacia el largo plazo y financiar ampliaciones de planta.</p>
+                                <p>Quimpac adopta Normas Internacionales de Información Financiera (NIIFs) - IASB para la presentación
+                                    de sus estados financieros</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">10´S</h3>
+                                <h4 class="h2">
+                                    2012
+                                </h4>
+                                <p>Inicia operaciones la ampliación de capacidad de Cloro-Soda en Quimpac de Colombia, que agrega
+                                    12,000 TM por año de cloro.</p>
+                                <p>Inician operaciones las nuevas plantas de Hipoclorito de Sodio en Callao y Paramonga, incrementando
+                                    la capacidad en 100,000 TM por año.</p>
+                                <p>Se crea Química del Pacífico Limitada, oficina comercial de Quimpac en Chile.</p>
+                                <p>Quimpac firma dos contratos de crédito de mediano plazo para usos corporativos por US$30
+                                    millones cada uno, otorgados por Bancolombia Puerto Rico Internacional Inc. y por The
+                                    Bank of Nova Scotia.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">10´S</h3>
+                                <h4 class="h2">
+                                    2013
+                                </h4>
+                                <p>Kallpa Generación inicia el suministro de energía a Quimpac para las nuevas Plantas de Cloro-Soda
+                                    y derivados fosfatados, según contrato entre ambas partes.</p>
+                                <p>Se realizan intercambios entre filiales del grupo para realizar visitas técnicas como parte
+                                    de entrenamiento para dar inicio a las operaciones del proyecto de ampliación de la Planta
+                                    Cloro-Soda.
+                                </p>
+                                <p>Quimpac de Colombia concluye la construcción de la Planta de Hidroxicloruro de Aluminio –
+                                    ACH, con una capacidad de producción de 5,500 TM por año. Adicionalmente se concluye
+                                    el proyecto para duplicar la capacidad de producción de policloruro de aluminio - PAC.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">10´S</h3>
+                                <h4 class="h2">
+                                    2014
+                                </h4>
+                                <p>Inicia operaciones la nueva Planta de Cloro-Soda con una capacidad de 70,000 DMT anuales.
+                                    Esta planta utiliza tecnología de punta y un alto grado de automatización.</p>
+                                <p>Se formaliza la compra del 10.17% de participación en Ecuatoriana de Sal y Productos Químicos
+                                    C.A. (Ecuasal), empresa que se dedica a la elaboración y comercialización de sal para
+                                    consumo humano e industrial en Ecuador</p>
+                                <p>Quimpac adopta la práctica contable de reconocer las inversiones mantenidas en subsidiarias
+                                    y asociada aplicando el método de participación patrimonial (VPP) para la presentación
+                                    de sus estados financieros</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">10´S</h3>
+                                <h4 class="h2">
+                                    2015
+                                </h4>
+                                <p>La nueva Planta de Productos Fosfatados inicia operaciones en el segundo semestre del 2015
+                                    y cuenta con una capacidad de 60,000 TM anuales.</p>
+                                <p>Por acuerdo del Directorio se determinó el cambio de monedafuncional de la compañía de soles
+                                    a dólares estadounidense como consecuencia de la expansión de ventas en el mercado internacional,
+                                    originada por la apertura de las nuevas Plantas de Cloro– Soda y Productos Fosfatados.
+                                    Se decide optar por esta moneda por ser la que mejor refleja las operaciones de la compañía.
+                                    — En junta General de Accionistas del 26 de marzo del 2015, la compañía acordó aumentar
+                                    el capital social de US$ 87.55 millones a US$ 95.93 millones por los nuevos aportes de
+                                    los accionistas.</p>
+                            </div>
+                            <div class="inside-sllider-item">
+                                <h3 class="h1">10´S</h3>
+                                <h4 class="h2">
+                                    2016
+                                </h4>
+                                <p>Se inicia el despliegue del programa TPM (Total Productive Maintenance) en las nuevas plantas
+                                    de Cloro-Soda y Productos Fosfatados. El objetivo del programa es mejorar eficiencias
+                                    operativas.
+                                </p>
+                                <p>En la Junta de Accionistas con fecha 31 de marzo de 2016 se acordó el incremento de capital
+                                    social y acciones de inversión por US$ 10.6 millones.</p>
+                            </div>
+                        </div>
+                        <div id="inside-slider-6-pager" class="inside-slider-pager">
+                            <ul>
+                                <li>
+                                    <a data-slide-index="0">2010</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1">2011</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2">2012</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3">2013</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4">2014</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="5">2015</a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="6">2016</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="main-slider-pager">
+                    <ul class="year_dots">
+                        <li>
+                            <a data-slide-index="0">60´S</a>
+                        </li>
+                        <li>
+                            <a data-slide-index="1">70´S</a>
+                        </li>
+                        <li>
+                            <a data-slide-index="2">80´S</a>
+                        </li>
+                        <li>
+                            <a data-slide-index="3">90´S</a>
+                        </li>
+                        <li>
+                            <a data-slide-index="4">00´S</a>
+                        </li>
+                        <li>
+                            <a data-slide-index="5">10´S</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section quines-somos-section estructura-section lite-section" id="06">
+        <div class="estructura-wrapper">
+            <h3 class="h1 h1-lowest-size h1-with-line">estructura
+                <span class="h-bottom-text">corporativa</span>
+            </h3>
+            <div class="estructura-img hidden-sm-down">
+                <img class="img-responsive" src="img/svg/MAPA-CORPORATIVO.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="dark-operaciones-section">
+            <div class="operaciones-img hidden-sm-up">
+                <div class="img hid-7-dowm">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.73 68.99">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #fff;
+                                }
+
+                                .cls-2 {
+                                    fill: none;
+                                    stroke: #fff;
+                                    stroke-miterlimit: 10;
+                                }
+                            </style>
+                        </defs>
+                        <title>map-responsive</title>
+                        <g id="Capa_2" data-name="Capa 2">
+                            <g id="Capa_1-2" data-name="Capa 1">
+                                <circle class="cls-1" cx="45.87" cy="7.87" r="7.87" />
+                                <circle class="cls-1" cx="45.87" cy="61.13" r="7.87" />
+                                <circle class="cls-1" cx="7.87" cy="61.13" r="7.87" />
+                                <circle class="cls-1" cx="83.87" cy="61.13" r="7.87" />
+                                <line class="cls-2" x1="45.87" y1="7.87" x2="45.87" y2="61.13" />
+                                <polyline class="cls-2" points="83.87 61.13 83.87 34.5 7.87 34.5 7.87 61.13" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="item-btn-wrpper ver_proceso">
+                    <a href="#proceso" class="popup-modal btn red-btn-main">
+                        <span class="visable-text">
+                            <span>VER ESTRUCTURA</span>
+                            <img src="img/zoom-icon.svg" alt="">
+                        </span>
+                        <span class="hidden-text">
+                            <span>VER ESTRUCTURA</span>
+                            <img src="img/zoom-icon.svg" alt="">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <p>Desarrollado por
+                    <a href="#">
+                        <img src="img/Logo/seek-logo.png" alt="">
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </section>
+
+    <div class="certificate-popup popup_plan popup" id="proceso">
+        <div class="popup-wrapper">
+            <div class="popup-content">
+                <a href="#" class="popup-dismiss">cerrar</a>
+                <h3 class="h1 h1-low-size">ESTRUCTURA
+                    <span class="h-bottom-text">CORPORATIVA
+                        <span class="right-line"></span>
+                    </span>
+                </h3>
+                <img src="img/svg/MAPA-CORPORATIVO.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <style>
+        body {
+            opacity: 1;
+        }
+    </style>
+</body>
+
+</html>

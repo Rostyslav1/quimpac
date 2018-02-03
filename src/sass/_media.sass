@@ -1,0 +1,2074 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width : 1576px)
+	.red-section .right-cultura-content
+		width: 60vw
+		padding-left: 35px
+		padding-right: 35px
+	body
+		font-size: 14px
+	//.years-slider-section
+	//	.inside-slider-pager
+	//		top: -130px
+	.certificacion-content
+		.popup-modal
+			flex-basis: 240px
+@media only screen and (max-width : 1495px)
+	.certificacion-content
+		.popup-modal
+			flex-basis: 180px
+	.quimicos
+		.galery-popup .popup-content
+			max-height: none
+		.galery-popup .galery-main-content
+			min-height: 180px
+			&:last-child
+				margin-bottom: 100px
+		.popup
+			.popup-content
+				justify-content: baseline
+			.popup-wrapper
+				overflow-y: scroll
+	.galery-popup.video_item_modal .popup-content 
+		padding: 153px 0 80px
+	.contact_page
+		.contact-wrapper
+			padding-top: 60px
+		.contact-wrapper::before
+			top: 0
+	.contact_page
+		.contactaons
+			//padding-bottom: 150px
+			height: auto
+		.form-content
+			min-height: 325px
+	.contact_page .contact-wrapper::after
+		bottom: -110px
+
+@media only screen and (max-width : 1400px)
+  .instalaciones-section
+    .instalaciones-item-wrapper
+      width: 545px
+    .instalaciones-item
+      width: 585px
+    .col-lg-6:last-child
+      .instalaciones-item
+        float: right
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+	.red-section .right-cultura-content
+		width: 65vw
+	.right-cultura-content // rostyslav
+		width: 60vw
+	.talento .home
+		-ms-background-position-x: center
+		background-position-x: center
+	.talento
+		.accordion-item
+			.w100
+				display: none
+	.testimonius_slider
+		.img
+			width: 236px
+			height: 310px
+	.testimonios
+		padding-top: 100px
+		&::after
+			height: 190px
+	.contact-wrapper::before
+		width: 58vw
+	.quines-hacemos
+		.ubicacion-circle
+			.h1-with-line
+				width: 330px
+	.quimicos
+		.galery-popup .popup-content
+			max-height: none
+		.galery-popup .galery-main-content
+			min-height: 180px
+			&:last-child
+				margin-bottom: 100px
+		.popup
+			.popup-content
+				justify-content: baseline
+			.popup-wrapper
+				overflow-y: scroll
+	.nuesta_empresa
+		.blak-section .right-cultura-content
+			width: 55vw
+		.quines-somos-section
+			.right-cultura-content
+				padding-right: 60px
+				padding-left: 60px
+	.years-slider-section
+		.h1-vertical
+			position: relative
+			left: -25px
+	.years-slider-section .main-slider .main-slider-item
+		width: 66vw
+	.nuesta_empresa
+		.estructura-wrapper
+			padding: 20vh 5vw 50px
+	.prodacts-page
+		.prodact-page-item-bottom .prodacts-item-row .prodact-item
+			max-width: 310px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+	.top-section-content
+		.home-content
+			.right-line
+				display: inherit
+				&::before
+					right: -105px
+					bottom: 0
+	.top_menu_wrapper
+		position: fixed
+		left: 0
+		top: 0
+		width: 100%
+		padding: 0
+		height: 100%
+		display: block
+		.top-menu
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			background-color: rgba(0, 0, 0, 0.4)
+			li
+				margin-bottom: 5px
+				//display: block
+				a
+					//font-size: 20px
+					color: #ffffff
+					//text-transform: uppercase
+			menu
+				text-align: center
+				width: 100%
+	.hid-lg-down
+		display: none
+	.hamburger
+		display: flex
+		justify-content: flex-end
+		margin-top: 20px
+	.top_menu_wrapper
+		overflow-y: scroll
+	.header .main-menu
+		align-items: center
+	.prodacts
+		#nav-icon3 span
+			background-color: #000000
+		.header .main-menu li a
+			color: #ffffff
+		.header .main-menu .sub-menu::after
+			border-top-color: #fff
+		.prodactt-left-content .prodact-item-photo
+			border-right: none
+		.right-main-photo
+			max-width: 300px
+		.red-btn-main
+			width: calc(100% + 50px)
+			text-align: center
+			position: relative
+			bottom: -10px
+			left: -35px
+			min-height: 44px
+			padding: 10px 45px 10px 10px !important
+	.prodact-page-item-bottom
+		display: none
+	.prodacts .left-photo-pag
+		max-width: 100px
+		padding-top: 0
+	.prodacts .prodactt-right-tabs
+		.prodact-tabs-header
+			flex-wrap: wrap
+			a
+				margin: 5px 0
+				border-bottom: 2px solid transparent
+
+	.header
+		.main-menu
+			justify-content: center
+			height: 100%
+			//align-items: center
+			menu
+				flex-direction: column
+			li, .sub-menu
+				font-size: 20px
+				margin-right: 0
+				text-align: center
+				margin-top: 40px
+			.sub-menu
+				&::after
+					top: 17px
+				>ul
+					position: inherit
+					margin: 5px 0 -5px
+					width: 100%
+					li a
+						text-transform: uppercase
+						font-weight: normal
+				li
+					font-size: 14px
+					line-height: 18px
+					margin-top: 15px
+
+				> a
+					font-weight: bold
+					&:hover, &:focus, &:active
+						color: #7d7055
+				&::after
+					transition: all .3s ease-in-out
+				&.active
+					> a
+						color: #7d7055
+					&::after
+						transform: rotate(180deg) translateY(50%)
+						border: 4px solid #7d7055
+						border-bottom-color: transparent
+						border-right-color: transparent
+						border-left-color: transparent
+			li
+				&:last-child
+					//display: none
+					justify-content: center
+				&:first-child
+					margin-top: 0
+	.home-slider-item
+		h3
+			font-size: 4rem
+			line-height: 4rem
+
+	.top_menu_wrapper
+		background-image: url('../img/images-hd/contact/img-CONTACT.jpg')
+		-webkit-background-size: cover
+		background-size: cover
+	.main-slider-content
+		max-width: 97%
+	.right-cultura-content
+		width: 62vw
+	.instalaciones-section
+		.instalaciones-item
+			width: 100%
+			padding: 0
+		.instalaciones-item-wrapper
+			width: 100%
+		.right-instalaciones-item
+			margin-top: 0
+		.item-btn-wrpper
+			right: 25px
+			bottom: 20px
+	.col-lg-6
+		.instalaciones-item
+			margin-bottom: 35px
+	.instalaciones-section
+		.title
+			display: flex
+			justify-content: space-between
+	.quimicos
+		.home
+			background-position: center 32%
+		.scroll-to-bottom
+			height: 18vh
+			a:first-child
+				display: block
+				width: 100%
+				display: flex
+				flex-direction: column
+				align-items: center
+				border-top: none
+				padding-bottom: 0
+				.text
+					//font-size: 20px
+				&:before
+					content: ''
+					display: block
+					height: 14px
+					border: 2px solid #ffffff
+					border-radius: 50%
+					width: 14px !important
+					background-color: transparent
+					position: absolute
+					left: 50%
+					transform: translateX(-50%)
+					top: 4px
+				&:after
+					display: none
+			&:after
+				display: none
+			.line
+				height: 100px
+				width: 2px
+				background-color: #ffffff
+				display: block
+		.home-content
+			min-height: 80vh
+		.dark-operaciones-section
+			.h1
+				font-size: 2.5rem
+				line-height: 2rem
+				margin-bottom: 60px
+		.instalaciones-section .h1-with-line
+				margin-left: 0
+		.operaciones-content-p
+			padding: 0 20px
+	.quimicos
+		.section-productos .call-btn
+			display: none
+		.accordion-wrapper
+			display: flex
+		.section-productos
+			.h1
+				margin-bottom: 30px
+			.accordion-wrapper
+				.accordion-item-wrapper
+					.active .title
+						font-family: "GestaW01", sans-serif
+						font-weight: bold
+						color: #5f5f5f
+						font-size: 1rem
+					.content
+						//margin-top: -10px
+						.content-list-item
+							margin: 0
+							font-size: 0.9rem
+		.accordion-slider-wrapper
+			.bx-viewport
+				height: auto !important
+			.bx-wrapper
+				box-shadow: none
+				border: none
+				margin-bottom: 0
+		.accordion-wrapper
+			padding-top: 40px
+			padding-bottom: 30px
+			.accordion-item-wrapper
+				//flex: 1 0 33.33333%
+				padding: 0 10px
+				&:last-child
+					.active .content
+						height: auto
+		.section-productos .accordion-wrapper
+			.title
+				padding-right: 10px
+			.accordion-item-wrapper
+				.title:after
+					content: ''
+					position: absolute
+					top: calc(50%)
+					margin-left: 5px
+					background: none
+					width: 5px
+					height: 5px
+					right: 0
+					border-top: 5px solid #5f5f5f
+					border-left: 5px solid transparent
+					border-right: 5px solid transparent
+					border-bottom: 5px solid transparent
+				.active .title:after
+					position: absolute
+					background: none
+					top: calc(50% - 6px)
+					right: 0
+					border-bottom: 6px solid #817257
+					border-left: 5px solid transparent
+					border-right: 5px solid transparent
+					border-top: 5px solid transparent
+				.title:before
+					display: none
+				.accordion-item
+					border-bottom: 0
+		.h-bottom-text
+			.right-line:before
+				right: -28px
+				bottom: 5px
+				width: 25px
+	.valores .right_img
+		display: none
+	.valores .products-wrapper
+		max-width: 590px
+		margin-left: auto
+		margin-right: auto
+	.testimonius_slider
+		.item
+			margin: 0 55px
+	.testimonius_slider_wrapper
+		margin-left: calc(-15vw - 280px)
+	.contact-wrapper
+		&::before
+			width: 70vw
+	.active-select::after
+		width: 158%
+	.quines-hacemos
+		.top-section-content
+			.home-content
+				.right-line::before
+					right: 10px
+		.section-content-wrapper
+			.left-content
+				padding-left: 0
+	.comercio-circle
+		.right-content
+			order: 2
+		.section-content-wrapper
+			flex-direction: column
+			.right-content
+				justify-content: center
+				.accordion-wrapper .mapa-mundi
+					margin: 0 auto
+		.h1
+			max-width: 484px
+			text-align: left
+			margin-bottom: 50px
+			&::after
+				right: -40px
+		.accordion-wrapper
+			padding-top: 50px
+			.title
+				width: 65vw
+	.quimicos
+		.galery-popup
+			.galery-main-content
+				flex-direction: column
+			.galery-item
+				margin-right: 0
+				margin-left: 0
+				text-align: center
+				min-width: 200px
+				img
+					height: auto
+					width: 100%
+					max-width: 400px
+		.popup
+			.popup-content
+				display: block
+				width: 100vw
+				max-width: 430px
+				padding: 80px 30px
+			.popup-wrapper
+				justify-content: flex-start
+	.nuesta_empresa
+		.home-content, .main-slider-content
+			padding-left: 0
+		.quines-somos-section .right-cultura-content
+			padding: 10vh 100px
+		.quines-somos-section .h4
+			padding-left: 0
+		.right-cultura-content
+			order: 2
+			width: 80vw
+			margin-left: 0
+			top: -30px
+			margin-bottom: -80px
+			p
+				padding-left: 0
+				margin-top: 10vh
+			.h1-vertical
+				writing-mode: horizontal-tb
+				transform: rotate(0deg)
+				display: inline-block
+				margin-bottom: 0
+				&::before
+					bottom: 0
+					height: 5px
+					width: 45px
+					right: -50px
+		.left-cultura-content
+			order: 4
+			width: 100vw
+			height: 90vh
+			overflow: hidden
+			margin-bottom: -80px
+			img
+				height: auto
+				width: 100%
+				min-height: 0
+				max-width: none
+		.cultura-wrapper
+			flex-direction: column
+			align-items: flex-end
+		.right-left-section .left-cultura-content
+			position: relative
+		.blak-section.quines-somos-section
+			.right-cultura-content
+				width: 80vw
+			.left-cultura-content
+				width: 100%
+		.red-section
+			.left-cultura-content
+				margin-bottom: 0
+
+		.quines-somos-section .cultura-wrapper
+			padding-top: 0
+		.right-left-section
+			.cultura-wrapper
+				align-items: flex-start
+	.years-slider-section
+		.main-slider .main-slider-item
+			width: 64vw
+			max-width: 76vw
+		.slider-wrapepr
+			margin-left: 0
+		.h1-vertical
+			font-size: 4rem
+			line-height: 3.1rem
+			&::before
+				top: 315px
+	.years-slider-section .main-slider .main-slider-item p
+		max-width: 45vw
+	.years-slider-section .main-slider-pager ul li
+		min-width: 55px
+	.estructura-wrapper .estructura-img img
+		width: 100%
+		max-width: none
+		z-index: 1
+	.estructura-wrapper .estructura-img img
+		min-height: 48vh
+	.contact_popup.popup
+		.popup-wrapper
+			justify-content: center
+		.popup-content
+			padding: 20px
+			> div
+				width: auto
+	.prodacts-page
+		.prodacts .red-btn-main
+			margin-bottom: 50px
+	.download_wrapper
+		margin-top: 20px
+	.home-slider
+		.home-content.quimicos-contetn
+			min-height: 70vh
+			p
+				margin-top: 40px
+			.h1
+				font-size: 3rem
+				//line-height: 3rem
+		.bg-number
+			font-size: 9rem
+			line-height: 9rem
+			width: 145px
+			top: -32px
+		.fosfatos .bg-number
+			width: 145px
+			span:first-child
+				right: 68px
+	.home-slider-item h3
+		font-size: 3rem
+		line-height: 3rem
+	.video_item_modal.popup
+		.popup-content
+			max-width: none
+			width: 80vw
+			iframe
+				width: 73vw
+				height: 41vw
+	.valores
+		min-height: 0
+		padding-bottom: 40px
+	.galery-popup.video_item_modal .popup-content
+		padding: 85px 30px 80px
+	.galery-popup .galery-main-content
+		max-height: none
+	.valores::before
+		display: none
+	.nuesta_empresa .blak-section.quines-somos-section .right-cultura-content p
+		padding-left: 0
+	.talento .home
+		padding-bottom: 0
+	.quines-hacemos .comercio-section .left-content
+		align-items: flex-start
+	.quines-hacemos .comercio-section .h1-revers::after
+			right: -72px
+	.home-slider .home-content.industrial
+		align-items: flex-start
+	.main-menu.opened
+		menu > li
+			> a
+				opacity: .4
+			&::after
+				opacity: .4
+			&.active
+				&::after
+					opacity: 1
+				a
+					opacity: 1
+	.top-menu
+		&.hid-lg-down
+			display: none !important
+	.header
+		.top-menu
+			position: fixed
+			z-index: 10
+			top: 0
+			left: 0
+			right: 0
+			background-color: rgba(0, 0, 0, 0.4)
+			li
+				margin-bottom: 5px
+			menu
+				margin-left: auto
+				margin-right: auto
+				text-align: center
+		>.container
+			margin-top: 40px
+	.onscroll
+		&::before
+			height: 120px
+			background-color: rgba(0, 0, 0, 0.4)
+		.top-menu
+			background: transparent
+		.logo
+			padding-top: 0
+	.onscroll.white_header
+		&:before
+			background: rgba(255, 255, 255, 0.71)
+		#nav-icon3 span
+			background-color: #4d4d4d
+	.header.mobile-menu-opened
+		.top-menu li a
+			color: #e0e0e1
+		.main-menu li a
+			color: #ffffff
+		#nav-icon3 span
+			background-color: #fff
+		.top-menu
+			background-color: rgba(0, 0, 0, 0.4)
+		.main-menu
+			.sub-menu::after
+				border: 4px solid #fff
+				border-bottom-color: transparent
+				border-right-color: transparent
+				border-left-color: transparent
+		.top-menu
+			span
+				color: #e0e0e1
+	.header .top-menu menu
+		margin-top: 10px
+	.contact_page
+		.contact-wrapper
+			padding-top: 90px
+	.quimicos
+		.accordion-wrapper
+			flex-direction: column
+			.accordion-item
+				width: 50%
+		.section-productos
+			.accordion-wrapper
+				.content
+					padding-left: 10vw
+					right: 0
+					position: absolute
+					width: 50%
+					padding-top: 55px
+					top: 0
+	.contact_page
+		.contact-wrapper::before
+			height: 100vh
+	.home-slider .indust .h1 .right-line
+		position: relative
+		right: auto
+	.quines-hacemos .home-slider .home-content.industrial .h1
+		line-height: 3rem
+	.quines-hacemos .indust .bg-number
+		top: -25px
+
+@media only screen and (max-width : 767px)
+	.top-section-content
+		.home-content
+			.right-line
+				display: inherit
+				&::before
+					right: -30px
+					bottom: 0
+	.prodacts-page
+		.prodacts .red-btn-main
+			margin-bottom: 0px
+	.h1  // rostyk
+		font-size: 4rem
+		line-height: 4rem
+	.h2
+		font-size: 2rem
+		line-height: 2rem
+	.home-content
+		padding: 15vh 110px 0px
+	.home-slider .home-slider-item
+		-ms-background-position-x: center
+		background-position-x: center
+	.cultura-wrapper
+		flex-direction: column
+		height: 100vh
+		position: relative
+	.left-cultura-content
+		width: 100%
+		img
+			min-height: 0
+	.right-cultura-content
+		margin-top: 0
+		text-align: center
+		width: 100%
+		margin-left: 0
+		position: absolute
+		bottom: 0
+		top: auto
+		padding: 0 35px 40px
+		.h-bottom-text
+			padding-left: 45px
+		.right-line::before
+			bottom: 6px
+			right: -28px
+		p
+			margin: 0 auto
+			text-align: left
+			max-width: 450px
+		.h1
+			margin-bottom: 55px
+			margin-left: -25px
+		.btn
+			margin-top: 65px
+	.cultura-section > .cultura-wrapper
+		overflow: hidden
+	.header .main-menu > menu > li > a
+		line-height: 35px
+	.bg-number
+		left: 40px
+	.quimicos
+		.instalaciones-section .title
+			.red-btn-main
+				position: relative
+				top: 8px
+		.dark-operaciones-section
+			.operaciones-content
+				margin-top: 80px
+		.h-bottom-text
+			padding-left: 25px
+		.dark-operaciones-section
+			.operaciones-img
+				height: auto
+				display: block
+				//max-width: 150px
+				margin: 0 auto
+				.item-btn-wrpper
+					margin: 20px auto 0
+				.img
+					min-height: 30vh
+					display: flex
+					align-items: center
+					text-align: center
+		.accordion-wrapper
+			.accordion-item-wrapper
+				.accordion-item .title
+					line-height: 1.4rem
+	.header::before
+		//height: 80px
+		//background: linear-gradient(to bottom, rgba(0, 0, 0, .5), transparent)
+	.hid-7-up
+		display: none !important
+	.popup_plan
+		background: rgba(0, 0, 0, 0.98)
+		img
+			height: 65vh
+		.popup-dismiss
+			position: absolute
+			right: 25px
+			top: 15px
+			font-size: 0.8rem
+			color: #ffffff
+			&:before, &:after
+				top: 0
+				background: #ffffff
+		.popup-content
+			width: 100%
+			height: 100%
+			max-height: none
+	.talento
+		.home-content
+			padding:
+				left: 50px
+				right: 50px
+		.contact-content
+			.h1
+				font-size: 3rem
+				line-height: 3rem
+				max-width: 338px
+				&::after
+					right: -24px
+		.contactaons
+			-ms-background-position-x: center
+			background-position-x: center
+	.testimonius_slider
+		.img
+			width: 176px
+			height: 250px
+		.item.active-slide
+			transform: none
+			.img
+				transform: scale(1.2)
+		.content
+			top: 20px
+		h4
+			font-size: 14px
+			line-height: 18px
+		span, p
+			font-size: 12px
+			line-height: 14px
+	.testimonius_slider_wrapper
+		width: 170vw
+		margin-left: calc(-35vw - 280px)
+		margin-top: 80px
+	.testimonios
+		padding-top: 65px
+		min-height: 100vh
+		&::after
+			height: 0
+	.valores .accordion-wrapper
+		padding-top: 70px
+	.contact_page
+		.active-select::after
+			display: none
+		.contact-content
+			text-align: center
+		.h1
+			font-size: 3rem
+			line-height: 3rem
+			width: 100%
+			margin-top: 0
+			max-width: none
+			&::after
+				display: none
+		.contact-select
+			.select-value
+				margin: 0 auto
+				text-align: left
+			.select
+				text-align: left
+				label
+					margin: 10px 0
+		.contact-select
+			.select-value
+				max-width: none
+				padding-bottom: 2px
+		.form-row input[type='text'],
+		.form-row input[type='email']
+			width: 100%
+		.form-row
+			margin-bottom: 0
+			margin-top: 40px
+		.form-content
+			min-height: 0
+			margin-top: 60px
+		.submit-btn
+			margin-top: 70px
+			background-color: #CE0D08
+			&:hover
+				.hidden-text
+					opacity: 1
+		.visable-text
+			color: #fff
+		.hidden-text
+			opacity: 0
+		.contact-wrapper
+			padding-right: 0
+		.contact-form
+			max-width: 330px
+			margin: 0 auto
+		.container
+			display: flex
+			height: 100%
+			flex-direction: column
+			justify-content: center
+		.contact-content
+			padding: 0 20px
+	.quines-hacemos
+		.top-section-content
+			.home-content
+				.right-line::before
+					right: 55px
+		.home .main-slider-content
+			padding-left: 0
+			max-width: 400px
+			margin: 0 auto
+		.home-content
+			padding:
+				right: 62px
+				left: 62px
+		.ubicacion.ubicacion-circle
+			.h1
+				margin-bottom: 40px
+				&::after
+					bottom: 5px
+					right: -54px
+			.section-content-wrapper
+				flex-direction: column
+				.right-content
+					height: 485px
+					justify-content: center
+					max-width: 400px
+				.left-content p
+					display: none
+			.map-points::after
+				width: 70%
+	.mob_content
+		margin-top: 30px
+	.quines-somos-section
+		.h1
+			font-size: 3rem
+			line-height: 2.4rem
+	.quines-hacemos
+		.ubicacion.ubicacion-circle
+			.h1-with-line
+				width: 265px
+				&::after
+					bottom: -2px
+					right: -30px
+	.quines-somos-section
+		.h1
+			&::after
+				width: 25px
+	.comercio-circle
+		.h1
+			max-width: 380px
+			&::after
+				bottom: -2px
+	.certificacion-content
+		.h1-with-line
+			max-width: 440px
+			margin: 0
+	.quimicos
+		#proceso
+			.popup-content
+				display: flex
+				align-items: center
+				justify-content: center
+				img
+					max-height: none
+					height: auto
+			.popup-dismiss:before,
+			.popup-dismiss:after
+				top: 3px
+	.sales_industriales, .fosfatos
+		.dark-operaciones-section
+			.operaciones-img
+				text-align: center
+				max-width: none
+	.nuesta_empresa
+		.right-cultura-content
+			position: relative
+			text-align: left
+			.h1
+				margin-left: 0
+				margin-top: 0
+			.h1-vertical::before
+				right: -35px
+				width: 30px
+		.quines-somos-section .right-cultura-content
+			display: block
+			padding: 10vh 60px
+			p
+				max-width: none
+	.years-slider-section
+		padding-left: 0
+		.slider-wrapepr
+			flex-direction: column
+		.left-title-static
+			border: none
+			width: 100%
+			max-width: none
+			text-align: center
+		.h-vertical-bottom
+			padding-top: 0
+			margin-left: -40px
+		.h1-vertical
+			left: 0
+			writing-mode: horizontal-tb
+			transform: rotate(0deg)
+			padding: 0 0 2px 40px
+			display: inline-block
+			text-align: left
+			margin-top: 60px
+			&::before
+				top: auto
+				height: 5px
+				left: auto
+				width: 30px
+				bottom: 0px
+				right: -35px
+		.main-slider
+			.main-slider-item
+				max-width: 100vw
+				.h1
+					font-size: 2.5rem
+		.main-slider-pager
+			padding-left: 0
+			ul
+				padding: 0 30px
+	.estructura-wrapper .h1-with-line
+		max-width: 335px
+	.nuesta_empresa
+		.popup .popup-content img
+			width: 90%
+		.cultura-wrapper
+			height: auto
+		.left-cultura-content
+			height: 70vh
+		.quines-somos-section .left-cultura-content img
+			width: 100%
+	.home-slider .bg-number
+		top: -40px
+	.quimicos-contetn .left-text-vertial
+		top: -10px
+	.video_item_modal.popup
+		.popup-content
+			max-width: none
+			width: 95vw
+			iframe
+				height: 49vw
+				width: 87vw
+	.valores
+		padding-bottom: 0px
+	.testimonios
+		min-height: 0
+	.testimonius_slider_wrapper
+		min-height: 0px
+		padding-bottom: 90px
+	.fosfatos
+		.popup .popup-content
+			max-width: 95vw
+	.quimicos section
+		&.dark-operaciones-section .operaciones-img
+			max-width: 205px
+	.years-slider-section .main-slider-pager::before
+		left: 0
+		width: 100vw
+	.quines-hacemos .comercio-section .h1-revers::after
+		right: -55px
+	.testimonios .bx-wrapper .bx-controls .bx-controls-direction
+		max-width: 390px
+	.quines-hacemos .home-slider .home-content.industrial .h1
+		min-width: 295px
+	.quimicos, .nuesta_empresa
+		#proceso .popup-content
+			.h1
+				font-size: 2rem
+				line-height: 1.8rem
+				color: #817257
+				margin-bottom: 50px
+				span
+					left: 0
+				.right-line::before
+					height: 3px
+					width: 20px
+					background-color: #817257
+					right: -192px
+					bottom: 0
+	.sales_industriales, .fosfatos, .nuesta_empresa
+		#proceso .popup-content
+			.h1
+				.right-line::before
+					right: -200px
+	.nuesta_empresa
+		#proceso .popup-content
+			padding: 80px 10px
+			.h1
+				.right-line::before
+					right: -218px
+	.quines-hacemos .indust .left-text-vertial
+		top: 6px
+	.contact_page .contactaons
+		height: 100vh
+	.sales_industriales
+		.home-content
+			padding-right: 50px
+	.sales_industriales .bg-number
+		top: -58px
+
+@media only screen and (max-width : 768px)
+	.contact-wrapper::before
+		display: none
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px)
+	.top-section-content
+		.home-content
+			.right-line
+				display: inherit
+				&::before
+					right: -40px
+					bottom: 0
+	.quines-hacemos-circle
+		.scroll-to-bottom 
+			align-items: flex-end
+			height: auto
+			margin-top: 20px
+			a
+				&::after
+					content: ''
+					display: block
+					height: 10px
+					border: 2px solid #ffffff
+					border-radius: 50%
+					width: 10px
+					position: absolute
+					left: calc(50% - 10px)
+					bottom: 70px
+			&::after
+				height: 40px
+				content: ''
+				display: block
+				width: 2px
+				position: absolute
+				left: calc(50% - 6px)
+				background-color: rgba(255, 255, 255, 0.2)
+				top: -45px
+	.quines-hacemos
+		.home-slider-section
+			.scroll-to-bottom
+				display: none
+	.h1  // rostyk
+		font-size: 3rem
+		line-height: 3rem
+	.h2
+		font-size: 1.45rem
+		line-height: 1.4rem
+	.cultura-section > .cultura-wrapper
+		overflow: visible
+	.home-content
+		max-width: 220px
+		margin: 0 auto
+		padding: 15vh 0 0
+		min-height: 81vh
+	.right-line::before
+		width: 18px
+		height: 3px
+		right: -20px
+	.scroll-to-bottom
+		height: 19vh
+		a:first-child
+			display: block
+			width: 100%
+			display: flex
+			flex-direction: column
+			align-items: center
+			border-top: none
+			padding-bottom: 0
+			&:before
+				content: ''
+				display: block
+				height: 14px
+				border: 2px solid #ffffff
+				border-radius: 50%
+				width: 14px !important
+				background-color: transparent
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				top: 4px
+			&:after
+				display: none
+		&:after
+			display: none
+		.line
+			height: 100px
+			width: 2px
+			background-color: #ffffff
+			display: block
+	.scroll-to-bottom
+		.text
+			padding-top: 6px
+			padding-bottom: 10px
+	.pagination
+		display: none
+	.home-slider-item
+		h3
+			font-size: 2.5rem
+			line-height: 2rem
+	.logo img
+		max-width: 140px
+	.h-bottom-text
+		padding-left: 25px
+		left: 0
+	.home-slider .home-content
+		max-width: 278px
+		padding-top: 0
+		margin-top: 6vh
+		min-height: 28vh
+	.hidden-sm
+		display: none !important
+	.home-slider .bx-wrapper .bx-pager.bx-default-pager a.active
+		&::before
+			content: ''
+			display: block
+			width: 1px
+			bottom: 20px
+			left: 50%
+			transform: translateX(-50%)
+			height: 50px
+			background: #B99823
+			position: absolute
+	.main-slider-content
+		padding: 0 20px
+	.home-slider .bx-wrapper .bx-pager
+		left: 50%
+		transform: translateX(-50%)
+		justify-content: space-evenly
+		width: 100%
+	.memoria
+		background-color: #000
+		height: 100vh
+		.right-cultura-content
+			width: auto
+			position: relative
+			top: 0
+			left: 0
+			flex: 1
+			background-color: transparent
+			.h1
+				margin-bottom: 40px
+				margin-left: -50px
+				margin-top: 35px
+			.btn
+				margin-top: 45px
+		.image
+			margin: 60px auto 0
+			overflow: hidden
+			flex: 1
+			text-align: center
+			width: 100%
+			img
+				height: 100%
+				width: auto
+		.right-line::before
+			bottom: 2px
+			right: -12px
+			width: 12px
+		h3
+			font-size: 1.5rem
+			line-height: 1.3rem
+			.h-bottom-text
+				padding-left: 62px
+	body
+		font-size: 12px
+		line-height: 18px
+	.btn
+		max-height: 44px
+		padding: 13px 32px
+	.hidden-sm-down
+		display: none !important
+	.home-circle::before
+		width: 60vh
+		height: 60vh
+		left: -36vh
+		top: 19vh
+	.home-circle::after
+		left: 30vw
+		top: 48vh
+		width: 75px
+		height: 75px
+	.home-slider-section::before
+		left: 0
+		right: auto
+		-ms-background-position-x: right
+		background-position-x: right
+	.home-slider-section::after
+		left: 7vw
+		right: auto
+	.cultura-section::before
+		display: none
+	.cultura-section::after
+		display: none
+	.right-cultura-content
+		h3
+			font-size: 2.5rem
+			line-height: 2rem
+	.quimicos
+		.home-content
+			max-width: none
+			padding: 0 30px
+		.home, .bottom_slider_content
+			&::before
+				display: none
+			.call-btn
+				line-height: 22px
+				span::before
+					-webkit-background-size: contain
+					background-size: contain
+					width: 25px
+					height: 25px
+		.quimicos-contetn .left-text-vertial
+			display: none
+		.h1
+			font-size: 3.1rem
+			text-align: center
+		.quimicos-contetn .h1 .right-line::before
+			right: -25px
+			bottom: 8px
+			width: 24px
+		.bg-number
+			font-size: 11rem
+			width: 170px
+			left: 50%
+			transform: translateX(-50%)
+		.home-content
+			min-height: 76vh
+			height: 76vh
+		.home
+			.scroll-to-bottom
+				flex-direction: column
+				height: 24vh
+				.red-btn-main
+					width: calc(100% + 30px)
+					text-align: center
+					margin: 0 -15px
+					position: relative
+					bottom: 0px
+					min-height: 44px
+					padding: 10px 45px 10px 10px !important
+					//&:before
+					//	display: none
+		.dark-operaciones-section
+			.h1
+				max-width: 265px
+				margin:
+					left: auto
+					right: auto
+	.quimicos
+		background-color: #ffffff
+		.call-btn:hover .hidden-text
+			transform: translateY(-270%) !important
+		.instalaciones-section .title
+			display: none
+		.h1-vertical
+			writing-mode: inherit
+			transform: none
+		.operaciones-content
+			.h1
+				text-align: left
+		.section-productos .h1
+			font-size: 2.5rem
+			text-align: left
+		.instalaciones-section
+			.item-btn-wrpper
+				margin: 50px auto 0
+				text-align: center
+			.instalaciones-item-wrapper
+				display: block
+				box-shadow: none
+				display: flex
+				flex-direction: column
+				justify-content: center
+				.left-item-content, .right-item-content
+					width: 100%
+			.left-item-content
+				width: auto
+				.h1
+					font-size: 2.4rem
+			.right-item-content
+				text-align: center
+				.h3
+					margin-top: 10px
+				p
+					line-height: 1.2rem
+					margin-top: 6px
+			.item-btn-wrpper
+				position: relative
+				right: auto
+				bottom: auto
+		.instalaciones-section
+			padding: 0
+			.instalaciones-item
+				margin-bottom: 0px
+			.col-12
+				padding: 0
+				&:first-child .instalaciones-item
+					margin-bottom: 2px
+			.instalaciones-item-wrapper
+				min-height: calc(50vh - 1px)
+				height: calc(50vh - 1px)
+		.accordion-wrapper
+			padding-top: 0
+			.accordion-item-wrapper
+				.accordion-item, .accordion-item.active
+					.title
+						font-size: 14px
+						line-height: 20px
+				&:first-child .active .content
+					height: auto
+			.content
+				.content-list-item
+					a
+						font-size: 14px
+						line-height: 24px
+		.section-productos .accordion-wrapper
+			.accordion-item-wrapper
+				.title:after
+					margin-left: 5px
+					border-top: 3px solid #5f5f5f
+					border-left: 3px solid transparent
+					border-right: 3px solid transparent
+					border-bottom: 3px solid transparent
+				.active .title:after
+					background: none
+					border-bottom: 4px solid #817257
+					border-left: 3px solid transparent
+					border-right: 3px solid transparent
+					border-top: 3px solid transparent
+			.content
+				.content-list-item::before
+					top: 12px
+					border-top: 3px solid #7d7d7d
+					border-left: 3px solid transparent
+					border-right: 3px solid transparent
+					border-bottom: 3px solid transparent
+		.section-productos .h1
+			margin: 40px auto 15px
+		.prodacts-bottom-btn
+			display: none
+		.section-productos
+			.bx-wrapper
+				margin-bottom: 0
+				box-shadow: none
+				border: none
+				//margin: 0 -15px
+				//width: calc(100% + 30px)
+			.prodacts-item-row
+				.prodact-item
+					display: block
+					border: none
+					flex: none
+					padding: 0 20px
+					display: flex
+					justify-content: center
+					&.active-slide
+						//width: 50vw !important
+					.visbl-prodact
+						width: auto !important
+		.prodacts-item-row
+			h3
+				font-size: 22px
+				text-align: center
+				position: relative
+				top: 30px
+		.quimicos_slider
+			width: 150vw
+			margin: 0px -25vw
+			.bx-viewport
+				overflow: visible !important
+		.prodacts-item-row
+			h3
+				opacity: 0
+				transition: opacity .3s ease-in-out
+			.prodact-item
+				min-height: 200px
+				img
+					transition: all .2s ease-in-out
+					width: 90px
+					max-width: none
+					max-height: none
+				&.active-slide
+					h3
+						opacity: 1
+					img
+						transform: scale(1.4)
+					.hover-prodact
+						opacity: 1
+				.hover-prodact
+					box-shadow: none
+					background: transparent
+					left: 0
+					height: auto
+					top: 47vh
+					width: 100vw
+					transform: translatex(-24vw)
+					z-index: 10
+					display: none
+					.top-title-prodact,
+					.top-title-presentation
+						display: none
+		.presentation
+			width: 100vw
+			display: flex
+			justify-content: space-evenly
+			left: 0
+			.link-prodact
+				font-size: 14px
+				text-transform: uppercase
+				font-weight: 100
+				color: rgba(125, 125, 125, 0.53)
+				position: relative
+				z-index: 12
+				&::before
+					content: ''
+					display: inline-block
+					border-color: rgba(125, 125, 125, 0.53)
+					opacity: 1
+					right: -15px
+					border: 1px solid
+					left: auto
+					width: 12px
+					height: 12px
+					top: 3px
+					border-radius: 100px
+					position: absolute
+				&::after
+					content: ''
+					display: inline-block
+					background-color: rgba(125, 125, 125, 0.53)
+					opacity: 1
+					right: -12px
+					left: auto
+					width: 6px
+					top: 6px
+					height: 6px
+					text-align: center
+					border-radius: 100px
+					position: absolute
+				&:hover
+					color: #5f5f5f
+					&::before
+						border-color: #5f5f5f
+					&::after
+						background-color: #5f5f5f
+		.counter
+			text-align: center
+			margin-top: 15px
+			position: relative
+			z-index: 10
+		.bottom_slider_content
+			text-align: center
+			font-size: 14px
+			color: #7d7d7d
+			font-weight: 600
+			position: relative
+			z-index: 10
+			margin-top: -6px
+			margin-left: -15px
+			width: calc(100vw)
+			.btn
+				display: block
+				margin-top: 0
+				width: 100%
+			.presentacion
+				margin-top: 20px
+			p
+				text-transform: uppercase
+				padding-bottom: 8px
+				margin-bottom: 0
+				margin-top: 40px
+				border-bottom: 1px solid rgba(125, 125, 125, 0.51)
+		.quimicos_slider_wrapper
+			width: calc(100% + 30px)
+			margin: 0 -15px
+			min-height: calc(56vh - 128px)
+		.section-productos
+			.products-wrapper
+				//min-height: 22vh
+			.h1
+				min-height: 12vh
+		.accordion-wrapper .active .content
+			height: auto
+		.presentacion_slider
+			height: 28px
+			position: relative
+			padding: 5px 0
+			.presentation
+				opacity: 0
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				transition: opacity 0.2s ease-in-out
+				&.active
+					transition: opacity 0.7s ease-in-out
+					opacity: 1
+					z-index: 5
+	.talento
+		.home:after
+			display: none
+		.home-content
+			padding: 0
+			max-width: none
+			padding: 0 30px
+			.h1
+				margin-top: 20vh
+				text-align: center
+				.right-line::before
+					right: -26px
+					bottom: 6px
+					height: 4px
+					width: 24px
+			.h2
+				display: none
+			p
+				margin-top: 8%
+				max-width: none
+	.testimonius_slider_wrapper
+		width: 230vw
+		margin-left: calc(-65vw - 60px)
+		margin-top: 60px
+		.item
+			margin: 0
+	.valores
+		.products-wrapper
+			padding: 0 30px
+	.testimonios
+		display: flex
+		flex-direction: column
+		justify-content: space-around
+		&::before
+			display: none
+		h2
+			text-align: center
+	.talento
+		.contact-form
+			padding-left: 0
+			.h4
+				font-size: 18px
+		.contact-content
+			.h1
+				font-size: 2.4rem
+				line-height: 2.4rem
+				margin-top: 0
+				&::after
+					display: none
+		.contact-wrapper
+			max-width: 265px
+			padding-right: 0
+			margin: 0 auto
+		.contactaons
+			&::after
+				display: none
+			.h3
+				font-size: 12px
+		.bot_form_row
+			.btn
+				border: none
+				background-color: #CE0D08
+				&:hover::before
+					background-color: #020101
+	.contact_page
+		.h1
+			font-size: 2.4rem
+			line-height: 2.4rem
+			margin-bottom: 0
+		.home::after,
+		.contact-wrapper::after
+			display: none
+		.form-row input[type='text'],
+		.form-row input[type='email']
+			margin-bottom: 6px
+		.contact-select .select-value
+			padding-bottom: 4px
+	.quines-hacemos
+		.home-content
+			max-width: 264px
+			padding-left: 0
+			padding-right: 0
+		.top-section-content .home-content .right-line::before
+			right: -2px
+		.home
+			.main-slider-content
+				min-height: 31vh
+				padding: 0 20px
+	.home-slider-section::before,
+	.ubicacion-circle::after,
+	.ubicacion-circle::before
+		display: none
+	.home-slider-section
+		.home-content
+			.h1
+				.right-line::before
+					right: -22px
+					bottom: 5px
+	.quines-somos-section .h1
+		font-size: 2rem
+		line-height: 1.6rem
+		&::after
+			width: 20px
+			height: 4px
+	.quines-hacemos .ubicacion.ubicacion-circle .h1-with-line
+		width: 165px
+	.comercio-circle .h1
+		max-width: 212px
+	.comercio-circle .accordion-wrapper .title
+		width: 100%
+	.certificacion-content .h1-with-line
+		max-width: 275px
+	.comercio-circle .accordion-wrapper
+		width: 100%
+	.comercio-circle
+		.accordion-wrapper
+			.title
+				min-width: 0
+				&::before
+					top: 16px
+	.certificacion-content .h1-with-line
+		font-size: 1.8rem
+		line-height: 1.5rem
+		max-width: 224px
+		.h-bottom-text
+			padding-left: 0
+	.quimicos
+		.galery-popup .right-popup-content .popup-dismiss
+			&::before, &::after
+				top: 1px
+				right: 5px
+		.galery-popup
+			.left-popup-content
+				.h3
+					text-align: center
+					margin-bottom: 30px
+			.right-popup-content
+				position: absolute
+				right: 0
+				bottom: 2px
+			.top-popup-content
+				position: relative
+	.quines-hacemos
+		.popup
+			.popup-content img
+				max-width: 100%
+			.popup-wrapper
+				padding: 0 30px
+		.popup-dismiss
+			&::after, &::before
+				top: 1px
+				right: 5px
+	.quimicos
+		#proceso
+			.popup-dismiss:before,
+			.popup-dismiss:after
+				top: 1px
+	.instalaciones-section .left-item-content .h1-vertical
+		&::before, &::after
+			display: none
+	.sales_industriales, .fosfatos
+		.bg-number
+			span:first-child
+				right: 75px
+	.nuesta_empresa
+		.right-cultura-content .h1-vertical::before,
+		.years-slider-section .h1-vertical::before
+			width: 22px
+			right: -27px
+			height: 4px
+		.blak-section::before,
+		.blak-section::after
+			display: none
+		.left-cultura-content
+			height: 50vh
+		.dark-operaciones-section
+			padding-bottom: 50px
+			background-color: transparent
+			.img
+				text-align: center
+			svg
+				max-width: 140px
+				margin-bottom: 80px
+				margin-top: 50px
+				.cls-2
+					stroke: #A8A8A8
+				.cls-1
+					fill: #A8A8A8
+		.estructura-section::after,
+		footer
+			display: none
+		.dark-operaciones-section
+			.operaciones-img
+				flex-direction: column
+				height: auto
+
+		.quines-somos-home
+			.h1
+				line-height: 2.4rem
+				margin-left: -10px
+				.right-line
+					display: block
+					width: 100%
+					&::before
+						right: -15px
+						bottom: 0
+			.main-slider-content
+				padding-right: 0
+				max-width: 400px
+				padding: 0 20px
+				margin: 0 auto
+			.home-content
+				margin: 20vh auto 10vh
+		.right-cultura-content,
+		.blak-section .right-cultura-content
+			width: 90vw
+		.red-section
+			.right-cultura-content
+				p
+					margin-top: 0
+			.h4
+				margin-top: 6vh
+				margin-bottom: 10px
+				line-height: 1.4rem
+				font-size: 1.2rem
+		.estructura-wrapper .h1-with-line
+			width: 245px
+			max-width: none
+			margin: 0 auto
+			&::after
+				right: 0
+	.years-slider-section
+		.inside-slider-pager
+			width: 100%
+			top: -10px
+			padding: 0 5vw
+		.main-slider
+			.main-slider-item
+				padding-right: 5vw
+				ul
+					display: flex
+					flex-wrap: wrap
+					justify-content: space-evenly
+					li
+						margin-right: 8px
+						margin-bottom: 10px
+				p
+					max-width: none
+				.h2
+					margin-bottom: 20px
+					margin-top: 100px
+				.h1
+					line-height: 2.6rem
+	.years-slider-section
+		.main-slider-pager
+			max-width: 100vw
+			//overflow-x: scroll
+			ul li
+				min-width: 70px
+	.contact_popup .bottom_button
+		padding-right: 0
+		padding-left: 0
+		justify-content: center
+	.home-slider .bg-number
+		top: -50px
+	.quimicos-contetn .left-text-vertial
+		top: -8px
+		font-size: 0.7rem
+	.home-slider .home-content.quimicos-contetn .h1
+		font-size: 2.8rem
+		line-height: 2.6rem
+	.home-slider
+		.page_scroll_to_bottom
+			display: none
+	.galery-popup .left-popup-content .h3
+		font-size: 2rem
+		line-height: 1rem
+	.galery-popup .right-popup-content .popup-dismiss
+		&::before, &::after
+			top: 0
+			right: 5px
+	.valores .accordion-wrapper .accordion-item-wrapper .accordion-item .title
+		line-height: 1.5rem
+	.video_item_modal.popup .popup-content iframe
+		height: 47vw
+		width: 83vw
+	.talento
+		.contactaons::before
+			display: none
+	.years-slider-section .main-slider-pager::before
+		display: none
+	.quines-hacemos .comercio-section .h1-revers::after
+		right: 0
+	.bx-wrapper .bx-controls-direction
+		padding: 0 20px
+		a
+			width: 22px
+	.home-slider .bx-wrapper .bx-pager.bx-default-pager a
+		background-color: #eaeaea
+	.valores .accordion-wrapper .accordion-item-wrapper .accordion-item .title
+		&:before
+			top: 22px
+		&:after
+			top: 21px
+	.valores .accordion-wrapper .accordion-item-wrapper .active .title:after
+		top: 24px
+	.valores .accordion-wrapper .accordion-item-wrapper
+		.title
+			padding-right: 22px
+	.quimicos .home
+		.scroll-to-bottom
+			.red-btn-main
+				position: fixed
+	.quimicos .scroll-to-bottom a:first-child
+		margin-bottom: 44px
+	.prodacts-page
+		.prodacts
+			.red-btn-main
+				position: fixed
+				bottom: 0
+				width: 100%
+				left: 0
+		.prodacts-wrapper
+			padding-bottom: 80px
+	.quines-hacemos .home
+		-ms-background-position-x: 50%
+		background-position-x: 50%
+	.quimicos #proceso .popup-content .h1
+		text-align: left
+	.quines-hacemos
+		.ubicacion
+			.bx-pager
+				position: inherit
+				display: flex
+				justify-content: center
+				align-items: center
+				a
+					width: 12px
+					height: 12px
+					border-radius: 100px
+					border: 3px solid #ddd
+					background-color: transparent
+					margin: 0 12px
+					&.active
+						border-color: #817257
+						width: 16px
+						height: 16px
+						background: transparent
+	.certificacion-content .popup-modal
+		min-height: 155px
+	#certificateSlider
+		margin-top: 20px
+	.quimicos .home-content
+		padding-top: 16vh
+	.years-slider-section .main-slider .main-slider-item ul
+		justify-content: flex-start
+	.years-slider-section .main-slider-pager ul
+		display: block
+		li
+			text-align: center
+			padding-bottom: 15px
+	.years-slider-section .main-slider-pager ul li::before
+		bottom: 6px
+		left: calc(50% - 3px)
+	.years-slider-section .main-slider-pager .active
+		&::after
+			left: calc(50% - 6.5px)
+		&::before
+			left: calc(50% - 3.5px)
+	.years-slider-section .main-slider-pager
+		padding: 0 20px
+		.bx-viewport
+			height: auto !important
+		.bx-wrapper
+			.bx-prev
+				left: -15px
+			.bx-next
+				right: -15px
+	.home_page
+		.home
+			>.container
+				background-color: rgba(255, 255, 255, 0.08)
+	.header .top-menu li a
+		padding: 0
+	.contact_page
+		.contact-wrapper
+			padding-top: 60px
+	.prodacts-page
+		.header
+			&.mobile-menu-opened
+				.hamburger
+					margin-top: 80px
+	.quines-hacemos
+		.scroll-to-bottom
+			a:first-child
+				padding: 25px 0
+				&::before
+					left: calc(50% - 5px)
+					bottom: 5px
+					top: auto
+			&::after
+				top: auto
+				bottom: -55%
+	.quines-hacemos .home .main-slider-content
+		min-height: 20vh
+	.quimicos .section-productos .accordion-wrapper .content
+		padding-top: 20px
+	.quimicos .bottom_slider_content
+		display: none
+	.quimicos
+		.section-productos
+			padding-bottom: 70px
+	.years-slider-section .main-slider-pager
+		margin-top: 20px
+	.years-slider-section .inside-slider-pager
+		top: 19vh
+		bottom: auto
+		transform: none
+	.years-slider-section .bx-controls-direction a
+		z-index: 1000
+	.quines-hacemos
+		.home-slider .indust .h1 .right-line
+			position: absolute
+	.sales_industriales
+		.home-content
+			max-width: 400px
+	.sales_industriales .bg-number
+		top: -70px
+	.sales_industriales .h1
+		font-size: 2.4rem
+	.quimicos .instalaciones-section .instalaciones-item-wrapper
+		text-align: center
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px)
+	.header
+		>.container
+			margin-top: 50px
+	.onscroll::before
+		height: 130px
+	.home-slider .indust .h1 .right-line
+		position: absolute
+		right: 0
+
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 576px)
+	.hidden-sm-up // rostyk
+		display: none !important
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	.quimicos .dark-operaciones-section .operaciones-img .item-btn-wrpper
+		display: none
+	.hid-7-dowm
+		display: none !important
+	.years-slider-section
+		.right-slider > .bx-wrapper
+			min-height: 450px
+	.years-slider-section .main-slider-pager
+		margin-top: 10px
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	.hid-lg-up // rostyk
+		display: none !important
+	.header
+		.main-menu
+			li
+				&:hover>ul
+					display: block
+	.top_menu_wrapper
+		display: block !important
+	.instalaciones-section .instalaciones-item-wrapper
+		height: 550px
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
