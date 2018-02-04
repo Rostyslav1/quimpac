@@ -681,7 +681,10 @@
 		top: -25px
 	.header .top_mobile_menu
 		display: none !important
-
+	.header .main-menu .sub-menu > ul
+		top: 0
+	.onscroll::after
+		display: none !important
 
 @media only screen and (max-width : 767px)
 	.top-section-content
@@ -2100,7 +2103,43 @@
 		.main-menu
 			li
 				&:hover>ul
+					display: flex
+			.sub-menu
+				&::before
+					content: ''
 					display: block
+					height: 3px
+					position: absolute
+					bottom: -25px
+					left: 0
+					width: calc(100% + 15px)
+					background-color: transparent
+				&:hover::before
+					background-color: #CE0D08
+				> ul
+					position: absolute
+					top: 0
+					li
+						display: inline-flex
+						a
+							white-space: nowrap
+							padding: 0 20px
+						&::after
+							content: '|'
+						&:last-child
+							&::after
+								display: none
+				&:nth-child(3)
+					> ul
+						right: -185px
+				&:nth-child(2)
+					> ul
+						right: -10px
+				&:nth-child(4)
+					> ul
+						right: -30px
+	.onscroll.white_header .main-menu li::after
+		color: #4d4d4d
 	.top_menu_wrapper
 		display: block !important
 	.instalaciones-section .instalaciones-item-wrapper

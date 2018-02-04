@@ -173,11 +173,23 @@ a
 		content: ''
 		width: 100%
 		transition: all .4s ease-out
-		height: 110px
+		height: 100px
 		background: linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,0))
 		position: absolute
 		left: 0
 		top: 0
+	&:after
+		content: ''
+		width: 100%
+		opacity: 0
+		transition: all .4s ease-out, opacity .2s ease-out
+		height: 38px
+		position: absolute
+		left: 0
+		background-color: transparent
+		top: 100px
+	&.hovered::after
+		opacity: 1
 	.top-menu
 		width: 100%
 		display: flex
@@ -270,12 +282,15 @@ a
 				top: 8px
 			>ul
 				display: none
-				position: absolute
-				top: 0
-				right: 0
-				width: 120%
+				position: fixed
+				// position: absolute
+				padding-top: 30px
+				top: 40px
+				// right: 0
+				// width: 120%
 				margin: 20px 0 0
-				padding-top: 10px
+				z-index: 100
+				// padding-top: 10px
 				text-align: right
 				margin-left: 0
 				padding-left: 0
@@ -298,6 +313,9 @@ a
 		margin-top: 5px
 	&::before
 		height: 90px
+	&::after
+		top: 90px
+		background-color: rgba(0, 0, 0, 0.7)
 	// .logo
 	// 	width: 200px
 
@@ -3427,6 +3445,8 @@ a
 .onscroll.white_header
 	&::before
 		background: rgba(255, 255, 255, 0.71)
+	&::after
+		background: rgba(255, 255, 255, 0.82)
 	.logo
 		img:last-child
 			display: block
@@ -3610,5 +3630,17 @@ a
 		&::after
 			right: auto
 			left: 0
+
+.contact_popup
+	.bottom_button
+		justify-content: center
+		input
+			border-color: #db1717
+			background-color: #db1717
+			color: #ffffff
+			&:hover, &:focus, &:active
+				background-color: #ae1616
+				border-color: #ae1616
+				color: #ffffff
 
 @import "media"
